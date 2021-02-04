@@ -11,7 +11,7 @@ body {
   background: #f1f7fb;
 }
 
-.bookList {
+.book-list {
   width: 90vw;
   max-width: 1170px;
   display: grid;
@@ -26,25 +26,25 @@ body {
 }
 
 @media screen and (min-width: 500px) {
-  .bookList {
+  .book-list {
     grid-template-columns: repeat(1, 1fr);
   }
 }
 
 @media screen and (min-width: 600px) {
-  .bookList {
+  .book-list {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media screen and (min-width: 670px) {
-  .bookList {
+  .book-list {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media screen and (min-width: 800px) {
-  .bookList {
+  .book-list {
     grid-template-columns: repeat(4, 1fr);
   }
 }
