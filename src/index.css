@@ -10,3 +10,41 @@ body {
   color: #1b1b1a;
   background: #f1f7fb;
 }
+
+.bookList {
+  width: 90vw;
+  max-width: 1170px;
+  display: grid;
+  margin: 5rem auto;
+  gap: 2rem;
+}
+
+.book {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+}
+
+@media screen and (min-width: 500px) {
+  .bookList {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .bookList {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 670px) {
+  .bookList {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .bookList {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
