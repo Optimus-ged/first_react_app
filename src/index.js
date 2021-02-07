@@ -1,33 +1,44 @@
-// Comment
-// Importing important packages for developement
 import React from "react";
 import ReactDom from "react-dom";
-
-// Comment
-// Importing css file
 import "./index.css";
 
-// Comment
-// Staless functional component
-// Always return JSX
 const BookList = () => {
   return (
     <section className="book-list">
-      <Book />
-      <Book />
-      <Book />
-      <Book />
-      <Book />
+      <Book
+        title="This book is talking about father's love"
+        author="Optimus ged"
+      />
+      <Book
+        title="This book is talking about father's love"
+        author="Cr3sc3nd0 Optimus"
+      />
+      <Book
+        title="This book is talking about father's love"
+        author="John Yala"
+      />
+      <Book
+        title="This book is talking about father's love"
+        author="Sisi Sifa"
+      />
+      <Book
+        title="This book is talking about father's love"
+        author="Nzolani Salem"
+      />
+      <Book
+        title="This book is talking about father's love"
+        author="Adele Bash"
+      />
     </section>
   );
 };
 
-const Book = () => {
+const Book = (props) => {
   return (
     <article className="book">
-      <img src="../assets/images/love-you.PNG" alt="father's love book" />
-      <h2>This is a book about father's love</h2>
-      <p>Optimus ged</p>
+      <img src="" alt="" />
+      <h2>{props.title}</h2>
+      <p>{props.author}</p>
     </article>
   );
 };
