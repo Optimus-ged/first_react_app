@@ -1,50 +1,69 @@
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  color: #1b1b1a;
-  background: #f1f7fb;
+  background: #81c644;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 1000px;
 }
 
-.book-list {
-  width: 90vw;
-  max-width: 1170px;
-  display: grid;
-  margin: 5rem auto;
-  gap: 2rem;
+.wrapper {
+  margin-top: 10%;
 }
 
-.book {
+.wrapper h1 {
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.team {
+  display: flex;
+  text-align: center;
+  width: auto;
+  justify-content: center;
+}
+
+.team .team-member {
   background: #fff;
-  border-radius: 1rem;
-  padding: 1rem 2rem;
+  margin: 5px;
+  width: 300px;
+  padding: 20px;
+  line-height: 26px;
+  color: #8e8b8b;
+  position: relative;
 }
 
-@media screen and (min-width: 500px) {
-  .book-list {
-    grid-template-columns: repeat(1, 1fr);
-  }
+.team .team-member h3 {
+  color: #81c644;
+  font-size: 25px;
+  margin-top: 60px;
+  margin-bottom: 5px;
 }
 
-@media screen and (min-width: 600px) {
-  .book-list {
-    grid-template-columns: repeat(2, 1fr);
-  }
+.team .team-member .role {
+  color: #ccc;
+  font-size: 12px;
+  margin: 10px;
+  text-transform: lowercase;
 }
 
-@media screen and (min-width: 670px) {
-  .book-list {
-    grid-template-columns: repeat(3, 1fr);
-  }
+.team .team-member .team-image {
+  height: 100px;
+  width: 100px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-@media screen and (min-width: 800px) {
-  .book-list {
-    grid-template-columns: repeat(4, 1fr);
-  }
+.team .team-member .team-image img {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
 }
