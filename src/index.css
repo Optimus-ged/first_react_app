@@ -1,69 +1,64 @@
-* {
+ /* #; */
+
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
+body{
   background: #81c644;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   height: 1000px;
 }
 
-.wrapper {
+.wrapper{
   margin-top: 10%;
 }
 
-.wrapper h1 {
-  font-size: 52px;
-  margin-bottom: 60px;
+.wrapper h1{
+  font-size: 55px;
   text-align: center;
 }
 
-.team {
+.wrapper .team{
   display: flex;
-  text-align: center;
-  width: auto;
+  margin-top: 5%;
   justify-content: center;
 }
 
-.team .team-member {
+.wrapper .team .team-member{
   background: #fff;
-  margin: 5px;
+  border-radius: 2rem;
   width: 300px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
   padding: 20px;
-  line-height: 26px;
-  color: #8e8b8b;
+  line-height: 25px;
   position: relative;
 }
 
-.team .team-member h3 {
-  color: #81c644;
-  font-size: 25px;
-  margin-top: 60px;
-  margin-bottom: 5px;
+.wrapper .team .team-member h3{
+  margin-top: 50px;
 }
 
-.team .team-member .role {
-  color: #ccc;
+.wrapper .team .team-member .role{
+  color: #8e8b8b;
   font-size: 12px;
-  margin: 10px;
-  text-transform: lowercase;
 }
 
-.team .team-member .team-image {
+.wrapper .team .team-member .content{
+  font-size: 14px;
+}
+
+.wrapper .team .team-member .team-image{
   height: 100px;
   width: 100px;
-  background-color: #fff;
   border-radius: 50%;
+  background: #fff;
   position: absolute;
   top: -50px;
   left: 50%;
   transform: translateX(-50%);
-}
-
-.team .team-member .team-image img {
-  height: 100px;
-  width: 100px;
-  padding: 10px;
 }
