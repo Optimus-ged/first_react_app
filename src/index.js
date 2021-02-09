@@ -5,11 +5,11 @@ import "./index.css";
 const Team = () => {
   return (
     <article className="wrapper">
-      <h1>Our Team</h1>
+      <h1>Our team</h1>
       <section className="team">
-        <TeamMember name="Optimus ged" role="Mob Developper" />
-        <TeamMember name="Yala Gedeon" role="Front-end Dev" />
-        <TeamMember name="Gedeon Yala" role="Back-end Dev" />
+        <TeamMember name="Optimus ged" role="Mob developper" />
+        <TeamMember name="Paul Doe" role="Tester" />
+        <TeamMember name="Rosy Meg ged" role="Support Lead" />
       </section>
     </article>
   );
@@ -17,18 +17,19 @@ const Team = () => {
 
 const TeamMember = (props) => {
   return (
-    <div className="team-member">
-      <div className="team-image">
-        
-      </div>
+    <section className="team-member">
+      <div className="team-image"></div>
       <h3>{props.name}</h3>
       <p className="role">{props.role}</p>
-      <p className="content">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum veniam
-        porro blanditiis? Ipsa odio quisquam quos, labore, quae ipsum tenetur,
-        eaque eum totam recusandae veritatis?
+      <p>
+        <div className="content">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut est nulla
+          quibusdam, architecto natus non officia eligendi voluptas? Deleniti
+          in, aliquam iste blanditiis distinctio quas totam aspernatur ipsum
+          natus obcaecati?
+        </div>
       </p>
-    </div>
+    </section>
   );
 };
 

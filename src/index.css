@@ -1,58 +1,43 @@
- /* #; */
-
-*{
-  margin: 0;
+* {
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
-body{
-  background: #81c644;
+body {
+  height: 2000px;
+  background: #7db73e;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  height: 1000px;
 }
 
-.wrapper{
-  margin-top: 10%;
+.wrapper {
+  padding-top: 10%;
 }
 
-.wrapper h1{
-  font-size: 55px;
+.wrapper h1 {
   text-align: center;
+  font-size: 60px;
+  margin-bottom: 70px;
 }
 
-.wrapper .team{
+.wrapper .team {
   display: flex;
-  margin-top: 5%;
   justify-content: center;
+  text-align: center;
+  width: auto;
+  line-height: 25px;
+  font-size: 13px;
 }
 
-.wrapper .team .team-member{
-  background: #fff;
-  border-radius: 2rem;
+.wrapper .team .team-member {
   width: 300px;
-  text-align: center;
-  margin-left: 5px;
-  margin-right: 5px;
-  padding: 20px;
-  line-height: 25px;
+  background: #fff;
+  margin: 0 10px;
+  padding: 20px 20px;
   position: relative;
 }
 
-.wrapper .team .team-member h3{
-  margin-top: 50px;
-}
-
-.wrapper .team .team-member .role{
-  color: #8e8b8b;
-  font-size: 12px;
-}
-
-.wrapper .team .team-member .content{
-  font-size: 14px;
-}
-
-.wrapper .team .team-member .team-image{
+.wrapper .team .team-member .team-image {
   height: 100px;
   width: 100px;
   border-radius: 50%;
@@ -61,4 +46,21 @@ body{
   top: -50px;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.wrapper .team .team-member h3 {
+  margin-top: 60px;
+  color: #7DB73E;
+  letter-spacing: 2px;
+}
+
+.wrapper .team .team-member .role{
+    color: #96969C;
+    text-transform: lowercase;
+    font-size: 10px;
+}
+
+.wrapper .team .team-member .content{
+    color: #96969C;
+    font-size: 12px;
 }
