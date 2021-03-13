@@ -1,15 +1,17 @@
-// importing dependancies
+// Importing dependancies
 import React from "react";
 import ReactDom from "react-dom";
 
 // Building Team component
 const Team = () => {
   return (
-    <article>
-      <h1>Optimus Team</h1>
-      <TeamMember name="Optimus Ged" poste="Directeur general" />
-      <TeamMember name="Salem Nzolani" poste="Comptable" />
-      <TeamMember name="John Kuhanda" poste="Chef de projet" />
+    <article className="wrapper">
+      <h1>Cr3sc3nd0'Z Team</h1>
+      <section className="team">
+        <TeamMember name="Salem Nzolani" poste="Comptable" />
+        <TeamMember name="Jeannette Sham" poste="Caissiere" />
+        <TeamMember name="Queen Kafene" poste="Secretaire" />
+      </section>
     </article>
   );
 };
@@ -17,19 +19,19 @@ const Team = () => {
 // Building Team Member
 const TeamMember = (props) => {
   return (
-    <section>
-      <div className="team-image"></div>
+    <div className="team-member">
+      <div className="member-picture"></div>
       <h3>{props.name}</h3>
-      <p>{props.poste}</p>
+      <p className="poste">{props.poste}</p>
       <p className="content">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-        dignissimos, dolores eaque similique autem non. Voluptates atque, fugit
-        et rerum suscipit eligendi neque adipisci sequi labore consectetur, ex,
-        expedita fugiat!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione
+        explicabo nam, tempora numquam ipsa alias iste! Delectus amet
+        consequatur dolore provident aliquid placeat aspernatur, illo unde,
+        commodi blanditiis minima veritatis.
       </p>
-    </section>
+    </div>
   );
 };
 
-// Rendering object
-ReactDom.render(<Team />, document.getElementById("root"));
+// Exporting module
+ReactDom.render(<Team/>, document.getElementById("root"));
