@@ -24,7 +24,7 @@ const TeamMember = (props) => {
       <div className="member-image"></div>
       <h3>{props.name}</h3>
       <p className="role">{props.role}</p>
-      <p className="content" >
+      <p className="content">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos facere
         impedit, earum dolore sint dolores corporis architecto consequuntur quos
         officia voluptatum explicabo in, ex placeat distinctio laboriosam dicta
@@ -35,4 +35,4 @@ const TeamMember = (props) => {
 };
 
 // Exporting module
-ReactDom.render(<Team/>, document.getElementById("root"));
+ReactDom.render(<Team />, document.getElementById("root"));
