@@ -6,18 +6,38 @@
 
 .home-page {
   background: #353535;
-  height: 2000px;
-  color: #e1aeaf;
+  color: #fff;
   font-family: Arial, Helvetica, sans-serif;
+  height: 2000px;
 }
 
-.menu ul{
-    display: inline-flex;
-    margin: 30px 40px;
+.home-page .menu {
+  display: inline-flex;
+  list-style: none;
+  margin: 30px 30px;
 }
 
-.menu ul li{
-    list-style: none;
-    margin: 0 20px;
-    cursor: pointera;
+.home-page .menu li {
+  color: #e1aeaf;
+  margin: 0px 20px;
+  cursor: pointer;
+}
+
+.home-page .signup-btn {
+  position: absolute;
+  top: 15px;
+  right: 50px;
+  color: #e1aeaf;
+  text-decoration: none;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  background-image: linear-gradient(#353535, #353535),
+    radial-gradient(circle at top left, #e1aeaf, #fff);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.signup-btn span {
+  display: block;
+  padding: 5px 20px;
 }
