@@ -11,9 +11,16 @@
   height: 2000px;
 }
 
+.home-page .nav-bar {
+  background: #22292e;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+
 .home-page ul {
-  margin-left: 30px;
-  margin-top: 30px;
+  margin: 25px 30px;
   display: inline-flex;
 }
 
@@ -21,6 +28,10 @@
   margin-right: 20px;
   cursor: pointer;
   list-style: none;
+}
+
+.home-page ul li:hover {
+  color: #919191;
 }
 
 .home-page .signup-btn {
@@ -47,13 +58,11 @@
   top: 25%;
   left: 100px;
   color: #fff;
-  /* background: #666; */
 }
 
 .home-page .banner .app-text {
   width: 50%;
   float: left;
-  /* background: #789; */
 }
 
 .home-page .banner .app-text h1 {
@@ -73,7 +82,11 @@
   text-decoration: none;
 }
 
-.home-page .banner .app-picture{
-    float: right;
+.home-page .banner .app-picture {
+  float: right;
+  width: 50%;
+}
 
+.home-page .banner .app-picture img{
+    width: 100%;
 }

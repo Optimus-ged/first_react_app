@@ -2,18 +2,21 @@
 import React from "react";
 import ReactDom from "react-dom";
 import "./index.css";
+import bit from "./images/bitcoin.png";
 
 // Building HomePage component
 const HomePage = () => {
   return (
     <article className="home-page">
-      <ul>
-        <li>Home</li>
-        <li>Clients</li>
-        <li>Users</li>
-        <li>Settings</li>
-        <li>Exit</li>
-      </ul>
+      <div className="nav-bar">
+        <ul>
+          <li>Home</li>
+          <li>Clients</li>
+          <li>Users</li>
+          <li>Settings</li>
+          <li>Exit</li>
+        </ul>
+      </div>
       {/* <p className="signup-btn">
         <span> Sign-Up</span>
       </p> */}
@@ -29,7 +32,7 @@ const HomePage = () => {
           </p>
         </div>
         <div className="app-picture">
-          <img src={require("./images/bitcoin.png")} alt="error" />
+          <img src={bit} alt="ggg" />
         </div>
       </div>
     </article>
