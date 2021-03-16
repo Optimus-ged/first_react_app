@@ -13,17 +13,67 @@
 
 .home-page ul {
   margin-left: 30px;
-  margin-top: 20px;
+  margin-top: 30px;
   display: inline-flex;
 }
 
-.home-page ul li{
-    margin-right: 20px;
-    list-style: none;
+.home-page ul li {
+  margin-right: 20px;
+  cursor: pointer;
+  list-style: none;
 }
 
-.home-page .signup-btn{
-    position: absolute;
-    top: 20px;
-    right: 20px;
+.home-page .signup-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  background-image: linear-gradient(#353535, #353535),
+    radial-gradient(circle at top left, #e1aeaf, #fff);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.home-page .signup-btn span {
+  display: block;
+  padding: 5px 20px;
+}
+
+.home-page .banner {
+  position: absolute;
+  height: 70%;
+  width: 80%;
+  top: 25%;
+  left: 100px;
+  color: #fff;
+  /* background: #666; */
+}
+
+.home-page .banner .app-text {
+  width: 50%;
+  float: left;
+  /* background: #789; */
+}
+
+.home-page .banner .app-text h1 {
+  font-size: 43px;
+  margin-left: 20px;
+  width: 500px;
+  text-decoration: none;
+  position: relative;
+}
+
+.home-page .banner .app-text p {
+  margin-left: 20px;
+  margin-top: 20px;
+  line-height: 25px;
+  font-size: 13px;
+  color: #919191;
+  text-decoration: none;
+}
+
+.home-page .banner .app-picture{
+    float: right;
+
 }
