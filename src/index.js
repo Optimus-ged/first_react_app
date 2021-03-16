@@ -1,25 +1,23 @@
-// Importing dependancies and modules
+//Importing dependancies and modules
 import React from "react";
 import ReactDom from "react-dom";
 import "./index.css";
 
-// Building HomePage Component
+// Building HomePage component
 const HomePage = () => {
   return (
     <article className="home-page">
       <ul className="menu">
         <li>Home</li>
-        <li>Users</li>
         <li>Clients</li>
-        <li>Settings</li>
+        <li>Users</li>
+        <li>About</li>
         <li>Exit</li>
       </ul>
-      <p className="signup-btn">
-        <span>Sign-Up</span>
-      </p>
+      <p className="signup-btn">Sign-Up</p>
     </article>
   );
 };
 
-// Exporting Module
+// Exporting module
 ReactDom.render(<HomePage />, document.getElementById("root"));
