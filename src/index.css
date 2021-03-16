@@ -5,9 +5,9 @@
 }
 
 .home-page {
+  height: 2000px;
   background: #0c1117;
   font-family: Arial, Helvetica, sans-serif;
-  height: 2000px;
 }
 
 .home-page .nav-bar {
@@ -19,51 +19,54 @@
 }
 
 .home-page .nav-bar ul {
-  display: inline-flex;
   color: #fff;
+  display: inline-flex;
   margin: 25px 30px;
+  list-style: none;
 }
 
 .home-page .nav-bar ul li {
-  cursor: pointer;
-  list-style: none;
   margin-right: 20px;
+  cursor: pointer;
 }
 
-.home-page .nav-bar ul li:hover {
-  color: #d9c06a;
+.home-page .nav-bar .signup-btn {
+  position: absolute;
+  top: 25px;
+  right: 30px;
+  color: #fff;
 }
 
 .home-page .banner {
-  height: 70%;
-  width: 80%;
   position: absolute;
   left: 100px;
   top: 25%;
+  height: 70%;
+  width: 80%;
 }
 
 .home-page .banner .app-text {
   width: 40%;
-  color: #fff;
   float: left;
 }
 
 .home-page .banner .app-text h1 {
   font-size: 43px;
+  color: #fff;
 }
 
 .home-page .banner .app-text p {
-  margin-top: 20px;
-  color: #919191;
   font-size: 13px;
+  color: #919191;
   line-height: 25px;
+  margin-top: 20px;
 }
 
-.home-page .banner .app-image {
+.home-page .banner .app-toph {
   width: 50%;
   float: right;
 }
 
-.home-page .banner .app-image img {
+.home-page .banner .app-toph img {
   width: 100%;
 }
