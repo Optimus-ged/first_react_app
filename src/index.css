@@ -5,65 +5,70 @@
 }
 
 .home-page {
+  height: 2000px;
   background: #0c1117;
   font-family: Arial, Helvetica, sans-serif;
-  height: 2000px;
 }
 
 .home-page .nav-bar {
-  background: #22292e;
   position: fixed;
   top: 0;
   z-index: 1;
+  background: #22292e;
+  color: #fff;
+  font-size: 15px;
   width: 100%;
 }
 
 .home-page .nav-bar ul {
   display: inline-flex;
-  color: #fff;
-  margin: 25px 30px;
+  list-style: none;
+  margin: 23px 30px;
 }
 
 .home-page .nav-bar ul li {
-  cursor: pointer;
-  list-style: none;
   margin-right: 20px;
+  cursor: pointer;
 }
 
 .home-page .nav-bar ul li:hover {
-  color: #d9c06a;
+  color: #d9c066;
 }
 
-.home-page .nav-bar .signup-btn {
+.home-page .nav-bar .enterprise {
   position: absolute;
-  color: #fff;
+  top: 23px;
   right: 30px;
-  top: 25px;
+  cursor: pointer;
+}
+
+.home-page .nav-bar .enterprise:hover {
+  color: #d9c066;
 }
 
 .home-page .banner {
-  height: 70%;
-  width: 80%;
   position: absolute;
   left: 100px;
   top: 25%;
+  height: 70%;
+  width: 80%;
 }
 
 .home-page .banner .app-text {
   width: 40%;
-  color: #fff;
   float: left;
 }
 
 .home-page .banner .app-text h1 {
   font-size: 43px;
+  color: #fff;
 }
 
 .home-page .banner .app-text p {
-  margin-top: 20px;
-  color: #919191;
   font-size: 13px;
+  color: #919191;
   line-height: 25px;
+  padding-top: 25px;
 }
 
 .home-page .banner .app-toph {
