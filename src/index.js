@@ -1,4 +1,4 @@
-// Importing module and dependancies
+// Importing modules and depenfancies
 import React from "react";
 import ReactDom from "react-dom";
 import "./index.css";
@@ -10,22 +10,31 @@ const HomePage = () => {
     <article className="home-page">
       <section className="nav-bar">
         <ul>
-          <li>Acceuil</li>
-          <li>Clients</li>
-          <li>Users</li>
-          <li>Aide</li>
-          <li>Exit</li>
+          <li>
+            <a href="#">Users</a>
+          </li>
+          <li>
+            <a href="#">Clients</a>
+          </li>
+          <li>
+            <a href="#">Settings</a>
+          </li>
+          <li>
+            <a href="#">Exit</a>
+          </li>
         </ul>
-        <p className="enterprise">Optimus Tec</p>
+        <p className="optimus">
+          <a href="#">Optimus Tec</a>
+        </p>
       </section>
       <section className="banner">
         <div className="app-text">
-          <h1>Our besic thesis for bitcoin is that is the better than Gold</h1>
+          <h1>Optimus code for bitcoin witch is the better than Gold</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
-            autem quas totam vel voluptates explicabo, aut recusandae velit
-            praesentium eligendi distinctio id eum suscipit quasi non illo
-            corrupti iste temporibus!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+            blanditiis excepturi commodi veritatis, sint sequi totam? Modi neque
+            eum, asperiores excepturi nesciunt sit incidunt sint corporis
+            similique doloremque? Velit, molestiae.
           </p>
         </div>
         <div className="app-toph">

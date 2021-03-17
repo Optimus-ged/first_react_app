@@ -2,22 +2,22 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 .home-page {
-  height: 2000px;
   background: #0c1117;
+  height: 1500px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .home-page .nav-bar {
   position: fixed;
   top: 0;
-  z-index: 1;
   background: #22292e;
   color: #fff;
-  font-size: 15px;
   width: 100%;
+  z-index: 1;
 }
 
 .home-page .nav-bar ul {
@@ -26,30 +26,34 @@
   margin: 23px 30px;
 }
 
-.home-page .nav-bar ul li {
+.home-page .nav-bar ul li a {
   margin-right: 20px;
-  cursor: pointer;
+  font-size: 15px;
+  letter-spacing: 0.8px;
+  color: #fff;
 }
 
-.home-page .nav-bar ul li:hover {
-  color: #d9c066;
+.home-page .nav-bar ul li a:hover {
+  color: #e1c668;
 }
 
-.home-page .nav-bar .enterprise {
+.home-page .nav-bar .optimus a {
   position: absolute;
   top: 23px;
   right: 30px;
+  letter-spacing: 0.8px;
   cursor: pointer;
+  color: #fff;
 }
 
-.home-page .nav-bar .enterprise:hover {
-  color: #d9c066;
+.home-page .nav-bar .optimus a:hover {
+  color: #e1c668;
 }
 
 .home-page .banner {
   position: absolute;
-  left: 100px;
   top: 25%;
+  left: 100px;
   height: 70%;
   width: 80%;
 }
@@ -60,15 +64,14 @@
 }
 
 .home-page .banner .app-text h1 {
-  font-size: 43px;
   color: #fff;
+  font-size: 43px;
 }
 
 .home-page .banner .app-text p {
-  font-size: 13px;
   color: #919191;
   line-height: 25px;
-  padding-top: 25px;
+  margin-top: 20px;
 }
 
 .home-page .banner .app-toph {
