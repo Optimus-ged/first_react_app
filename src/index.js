@@ -1,44 +1,45 @@
-// Importing modules and depenfancies
+// importing modules and dependancies
 import React from "react";
 import ReactDom from "react-dom";
 import "./index.css";
-import Bit from "./images/bitcoin.png";
+import bitcoin from './images/bitcoin.png';
 
-// Building HomePage component
-const HomePage = () => {
+// Building components
+const Wrapper = () => {
   return (
-    <article className="home-page">
+    <article className="wrapper">
       <section className="nav-bar">
         <ul>
           <li>
-            <a href="#">Users</a>
+            <a href="http//www.google.com">Home</a>
           </li>
           <li>
-            <a href="#">Clients</a>
+            <a href="http//www.google.com">Client</a>
           </li>
           <li>
-            <a href="#">Settings</a>
+            <a href="http//www.google.com">Users</a>
           </li>
           <li>
-            <a href="#">Exit</a>
+            <a href="http//www.google.com">Settings</a>
+          </li>
+          <li>
+            <a href="http//www.google.com">Exit</a>
           </li>
         </ul>
-        <p className="optimus">
-          <a href="#">Optimus Tec</a>
-        </p>
+        <p className="optimus">OptimusTec</p>
       </section>
       <section className="banner">
         <div className="app-text">
           <h1>Optimus code for bitcoin witch is the better than Gold</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-            blanditiis excepturi commodi veritatis, sint sequi totam? Modi neque
-            eum, asperiores excepturi nesciunt sit incidunt sint corporis
-            similique doloremque? Velit, molestiae.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat
+            illo voluptatibus eveniet recusandae quod porro. At necessitatibus
+            dicta libero eum! Eos, ducimus repellendus mollitia rem quos ad
+            officia error cum.
           </p>
         </div>
         <div className="app-toph">
-          <img src={Bit} alt="Bitcoin toph" />
+          <img src={bitcoin} alt="bitcoin toph"/>
         </div>
       </section>
     </article>
@@ -46,4 +47,4 @@ const HomePage = () => {
 };
 
 // Exporting module
-ReactDom.render(<HomePage />, document.getElementById("root"));
+ReactDom.render(<Wrapper />, document.getElementById("root"));
