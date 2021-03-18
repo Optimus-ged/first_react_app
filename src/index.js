@@ -1,7 +1,7 @@
-// importing modules and dependancies
-import React from "react";
+// Importing modules and dependancies
+import Reat from "react";
 import ReactDom from "react-dom";
-import "./index.css";
+import './index.css';
 import bitcoin from './images/bitcoin.png';
 
 // Building components
@@ -11,19 +11,19 @@ const Wrapper = () => {
       <section className="nav-bar">
         <ul>
           <li>
-            <a href="http//www.google.com">Home</a>
+            <a href="www.google.com">Home</a>
           </li>
           <li>
-            <a href="http//www.google.com">Client</a>
+            <a href="www.google.com">Users</a>
           </li>
           <li>
-            <a href="http//www.google.com">Users</a>
+            <a href="www.google.com">Clients</a>
           </li>
           <li>
-            <a href="http//www.google.com">Settings</a>
+            <a href="www.google.com">Settings</a>
           </li>
           <li>
-            <a href="http//www.google.com">Exit</a>
+            <a href="www.google.com">About</a>
           </li>
         </ul>
         <p className="optimus">OptimusTec</p>
@@ -32,10 +32,10 @@ const Wrapper = () => {
         <div className="app-text">
           <h1>Optimus code for bitcoin witch is the better than Gold</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat
-            illo voluptatibus eveniet recusandae quod porro. At necessitatibus
-            dicta libero eum! Eos, ducimus repellendus mollitia rem quos ad
-            officia error cum.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+            sequi dignissimos delectus similique animi quam illum impedit,
+            nesciunt officia. Similique at est alias dicta dolorum, sit harum
+            sequi praesentium quisquam?
           </p>
         </div>
         <div className="app-toph">
@@ -46,5 +46,5 @@ const Wrapper = () => {
   );
 };
 
-// Exporting module
+// Exporting modules
 ReactDom.render(<Wrapper />, document.getElementById("root"));
