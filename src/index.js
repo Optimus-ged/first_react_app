@@ -1,8 +1,8 @@
-// Importing modules and dependancies
+// importing modules and dependancies
 import React from "react";
 import ReactDom from "react-dom";
 import "./index.css";
-import bit from './images/bitcoin.png';
+import bitcoin from "./images/bitcoin.png";
 
 // Building components
 const Wrapper = () => {
@@ -11,19 +11,19 @@ const Wrapper = () => {
       <section className="nav-bar">
         <ul>
           <li>
-            <a href="www.google.com">Home</a>
+            <a href="http//www.google.com">Home</a>
           </li>
           <li>
-            <a href="www.facebook.com">Users</a>
+            <a href="http//www.google.com">Client</a>
           </li>
           <li>
-            <a href="www.twitter.com">Clients</a>
+            <a href="http//www.google.com">Users</a>
           </li>
           <li>
-            <a href="www.instagram.com">About</a>
+            <a href="http//www.google.com">Settings</a>
           </li>
           <li>
-            <a href="www.whatsap.com">Exit</a>
+            <a href="http//www.google.com">Exit</a>
           </li>
         </ul>
         <p className="optimus">OptimusTec</p>
@@ -32,19 +32,19 @@ const Wrapper = () => {
         <div className="app-text">
           <h1>Optimus code for bitcoin witch is the better than Gold</h1>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore
-            nobis modi consequuntur, rem nisi, iure laborum quos molestiae
-            possimus ex veniam atque est animi, totam dignissimos minus
-            doloremque. Tempore, dolor?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat
+            illo voluptatibus eveniet recusandae quod porro. At necessitatibus
+            dicta libero eum! Eos, ducimus repellendus mollitia rem quos ad
+            officia error cum.
           </p>
         </div>
         <div className="app-toph">
-          <img src={bit} alt="toph bitcoin"/>
+          <img src={bitcoin} alt="bitcoin toph" />
         </div>
       </section>
     </article>
   );
 };
 
-// Exporting modules
+// Exporting module
 ReactDom.render(<Wrapper />, document.getElementById("root"));
