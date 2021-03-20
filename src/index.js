@@ -1,51 +1,50 @@
-// Importing depedancies and moduels
+// importing modules and dependancies
 import React from "react";
 import ReactDom from "react-dom";
 import "./index.css";
 import bitcoin from "./images/bitcoin.png";
 
-// Building wrapper componen
+// Building components
 const Wrapper = () => {
   return (
     <article className="wrapper">
       <section className="nav-bar">
         <ul>
           <li>
-            <a href="www.google.com">Home</a>
+            <a href="http//www.google.com">Home</a>
           </li>
           <li>
-            <a href="www.google.com">Users</a>
+            <a href="http//www.google.com">Client</a>
           </li>
           <li>
-            <a href="www.google.com">Clients</a>
+            <a href="http//www.google.com">Users</a>
           </li>
           <li>
-            <a href="www.google.com">About</a>
+            <a href="http//www.google.com">Settings</a>
           </li>
           <li>
-            <a href="www.google.com">Exit</a>
+            <a href="http//www.google.com">Exit</a>
           </li>
         </ul>
-        <p className="optimus">Optimus Tec</p>
+        <p className="optimus">OptimusTec</p>
       </section>
       <section className="banner">
         <div className="app-text">
           <h1>Optimus code for bitcoin witch is the better than Gold</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Distinctio, quos, dicta explicabo nesciunt itaque autem error
-            consequatur labore reprehenderit nobis possimus. Assumenda, itaque.
-            Assumenda explicabo delectus accusantium, nesciunt aliquid
-            distinctio.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat
+            illo voluptatibus eveniet recusandae quod porro. At necessitatibus
+            dicta libero eum! Eos, ducimus repellendus mollitia rem quos ad
+            officia error cum.
           </p>
         </div>
         <div className="app-toph">
-          <img src={bitcoin} alt="Erreur de chargement"/>
+          <img src={bitcoin} alt="bitcoin toph" />
         </div>
       </section>
     </article>
   );
 };
 
-// Exporting our component
+// Exporting module
 ReactDom.render(<Wrapper />, document.getElementById("root"));

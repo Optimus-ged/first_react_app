@@ -1,56 +1,52 @@
 * {
   padding: 0;
   margin: 0;
-  text-decoration: none;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 .wrapper {
+  height: 1500px;
   background: #0c1117;
-  height: 2000px;
-  color: #fff;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .wrapper .nav-bar {
+  background: #22292e;
   padding: 22px 30px;
-  background: #0c1117;
+  color: #fff;
   position: fixed;
   top: 0;
-  width: 100%;
-  font-size: 14px;
   z-index: 1;
-}
-
-.wrapper .nav-bar:hover {
-  background: #0c1117;
+  width: 100%;
 }
 
 .wrapper .nav-bar ul {
-  list-style: none;
   display: inline-flex;
+  list-style: none;
+  margin-right: 20px;
 }
 
 .wrapper .nav-bar ul li a {
-  margin-right: 20px;
   color: #fff;
+  margin-right: 20px;
+  font-size: 15px;
   letter-spacing: 0.8px;
 }
 
 .wrapper .nav-bar ul li a:hover {
-  color: #d7c067;
+  color: #d8c168;
 }
 
 .wrapper .nav-bar .optimus {
   position: absolute;
   top: 22px;
   right: 30px;
-  letter-spacing: 0.9px;
   cursor: pointer;
 }
 
 .wrapper .nav-bar .optimus:hover {
-  color: #d7c067;
+  color: #d8c168;
 }
 
 .wrapper .banner {
@@ -67,14 +63,15 @@
 }
 
 .wrapper .banner .app-text h1 {
-  font-size: 40px;
   color: #fff;
+  font-size: 40px;
 }
 
 .wrapper .banner .app-text p {
-  font-size: 13px;
+  color: #919191;
   line-height: 25px;
-  color: #7a8284;
+  font-size: 13px;
+  margin-top: 20px;
 }
 
 .wrapper .banner .app-toph {
