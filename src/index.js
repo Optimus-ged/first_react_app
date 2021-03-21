@@ -42,12 +42,12 @@ const Wrapper = () => {
           <img src={bitcoin} alt="bitcoin toph" />
         </div>
       </section>
-      <section className="social-network">
+      <section className="social-btn">
         <ul>
+          <li>g</li>
+          <li>w</li>
           <li>f</li>
           <li>t</li>
-          <li>w</li>
-          <li>g</li>
           <li>y</li>
         </ul>
       </section>

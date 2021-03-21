@@ -83,28 +83,25 @@
   width: 100%;
 }
 
-.wrapper .social-network ul {
-  color: #fff;
+.wrapper .social-btn {
   position: fixed;
   right: 30px;
   bottom: 50px;
-  list-style: none;
 }
 
-.wrapper .social-network ul:hover {
+.wrapper .social-btn ul li{
+  color: #919191;
+  list-style: none;
+  padding: 5px 7px;
+  border: solid 1px;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 15px;
+  border-radius: 50%;
   cursor: pointer;
 }
 
-.wrapper .social-network ul li {
-  margin-top: 10px;
-  padding: 5px 7px;
-  border: solid 1px #919191;
-  border-radius: 50%;
-  text-align: center;
-  font-size: 13px;
-}
-
-.wrapper .social-network ul li:hover {
+.wrapper .social-btn ul li:hover{
   color: #d8c168;
-  border: solid 1px #d8c168;
+  border: solid 1px;
 }
