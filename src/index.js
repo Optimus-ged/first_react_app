@@ -54,8 +54,14 @@ const Wrapper = () => {
       <section className="container">
         <div className="dashboard"></div>
         <div className="content">
-          <div className="header"></div>
-          <div className="footer"></div>
+          <div className="header">
+            <p className="btn-user">User</p>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
         </div>
       </section>
     </article>

@@ -90,7 +90,7 @@
   bottom: 50px;
 }
 
-.wrapper .social-btn ul li{
+.wrapper .social-btn ul li {
   color: #919191;
   list-style: none;
   padding: 5px 7px;
@@ -102,13 +102,13 @@
   cursor: pointer;
 }
 
-.wrapper .social-btn ul li:hover{
+.wrapper .social-btn ul li:hover {
   color: #d8c168;
   border: solid 1px;
 }
 
-.wrapper .container{
-  height: 70%;
+.wrapper .container {
+  height: 100%;
   width: 80%;
   background: #252;
   position: absolute;
@@ -117,30 +117,38 @@
   display: flex;
 }
 
-.wrapper .container .dashboard{
+.wrapper .container .dashboard {
   width: 15%;
   height: 100%;
   background: #fff;
-  
 }
 
-.wrapper .container .content{
+.wrapper .container .content {
   height: 100%;
   width: 85%;
   background: #888;
   position: relative;
 }
 
-.wrapper .container .content .header{
-  height: 60px;
-  width: 100%;
-  background: #0c1;
+.wrapper .container .content .header {
+  padding: 10px;
+  position: relative;
+  color: #fff;
+  background: #986;
 }
 
-.wrapper .container .content .footer{
-  height: 20px;
-  width: 100%;
-  background: #d8c168;
+.wrapper .container .content .header ul {
+  display: inline-flex;
+  list-style: none;
   position: absolute;
-  bottom: 0;
+  top: 15px;
+  right: 20px;
+}
+
+.wrapper .container .content .header ul li {
+  height: 10px;
+  width: 10px;
+  background: #fff;
+  margin-left: 20px;
+  border-radius: 50%;
 }
