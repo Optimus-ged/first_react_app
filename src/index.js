@@ -7,7 +7,14 @@ import "./index.css";
 const Wrapper = () => {
   return (
     <article className="wrapper">
-      <div className="dash-board"></div>
+      <div className="dash-board">
+        <UserItem name="Optimus Ged" />
+        <UserItem name="Optimus Ged" />
+        <UserItem name="Optimus Ged" />
+        <UserItem name="Optimus Ged" />
+        <UserItem name="Optimus Ged" />
+        <UserItem name="Optimus Ged" />
+      </div>
       <div className="banner">
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam
@@ -18,6 +25,16 @@ const Wrapper = () => {
       </div>
     </article>
   );
+};
+
+// Building user-component
+const UserItem = (props)=>{
+    return (
+        <div className="user-item">
+            <div className="user-avatar"></div>
+            <div className="user-name">{props.name}</div>
+        </div>
+    );
 };
 
 // Exporting modules
