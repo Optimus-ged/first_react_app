@@ -11,41 +11,36 @@
 }
 
 .wrapper .nav-bar {
-  height: 62px;
   width: 100%;
   display: flex;
   position: fixed;
-  top: 0;
-  background: #fff;
 }
 
-.wrapper .nav-bar .logo {
-  height: 100%;
-  width: 250px;
+.wrapper .logo {
   text-align: center;
-  color: #fff;
+  width: 250px;
   padding: 20px;
   background: #332cc4;
 }
 
-.wrapper .nav-bar .top-menu{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    background: #777;
+.wrapper .top-header {
+  width: 100%;
+  position: relative;
+  display: flex;
+  background: #fff;
 }
 
-.wrapper .nav-bar .top-menu .home-link{
-    padding: 20px;
+.wrapper .top-header .home-link {
+  padding: 20px;
 }
 
-.wrapper .nav-bar .top-menu .right-info{
+.wrapper .top-header .right-menus{
     position: absolute;
+    right: 0;
     display: flex;
     padding: 20px;
-    right: 0;
 }
 
-.wrapper .nav-bar .top-menu .right-info div{
+.wrapper .top-header .right-menus p{
     margin-left: 20px;
 }
