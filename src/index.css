@@ -55,6 +55,7 @@
   position: absolute;
   left: 100px;
   top: 25%;
+  /* background: #825; */
 }
 
 .wrapper .banner .app-text {
@@ -104,4 +105,42 @@
 .wrapper .social-btn ul li:hover{
   color: #d8c168;
   border: solid 1px;
+}
+
+.wrapper .container{
+  height: 70%;
+  width: 80%;
+  background: #252;
+  position: absolute;
+  top: 110%;
+  left: 100px;
+  display: flex;
+}
+
+.wrapper .container .dashboard{
+  width: 15%;
+  height: 100%;
+  background: #fff;
+  
+}
+
+.wrapper .container .content{
+  height: 100%;
+  width: 85%;
+  background: #888;
+  position: relative;
+}
+
+.wrapper .container .content .header{
+  height: 60px;
+  width: 100%;
+  background: #0c1;
+}
+
+.wrapper .container .content .footer{
+  height: 20px;
+  width: 100%;
+  background: #d8c168;
+  position: absolute;
+  bottom: 0;
 }

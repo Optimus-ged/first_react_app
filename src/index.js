@@ -51,6 +51,13 @@ const Wrapper = () => {
           <li>y</li>
         </ul>
       </section>
+      <section className="container">
+        <div className="dashboard"></div>
+        <div className="content">
+          <div className="header"></div>
+          <div className="footer"></div>
+        </div>
+      </section>
     </article>
   );
 };
