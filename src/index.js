@@ -1,40 +1,21 @@
-// Importing dependancies and modules
+// Importing modules and dependancies
 import React from "react";
 import ReactDom from "react-dom";
 import "./index.css";
 
-// Building Wrapper component
+// Building components
 const Wrapper = () => {
   return (
     <article className="wrapper">
-      <div className="dash-board">
-        <UserItem name="Optimus Ged" />
-        <UserItem name="Optimus Ged" />
-        <UserItem name="Optimus Ged" />
-        <UserItem name="Optimus Ged" />
-        <UserItem name="Optimus Ged" />
-        <UserItem name="Optimus Ged" />
-      </div>
-      <div className="banner">
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam
-          earum accusantium laudantium minus recusandae corporis in itaque, iure
-          distinctio rem cum debitis tempore dolores reiciendis voluptas
-          inventore laborum accusamus ipsam.
-        </p>
-      </div>
+      <section className="nav-bar">
+        <div className="logo">CODDING MARKET</div>
+        <div className="top-menu">
+          <div className="home-link"></div>
+          <div className="right-info"></div>
+        </div>
+      </section>
     </article>
   );
-};
-
-// Building user-component
-const UserItem = (props)=>{
-    return (
-        <div className="user-item">
-            <div className="user-avatar"></div>
-            <div className="user-name">{props.name}</div>
-        </div>
-    );
 };
 
 // Exporting modules

@@ -6,36 +6,30 @@
 
 .wrapper {
   height: 100vh;
-  position: relative;
+  background: #e6ecf3;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.wrapper .dash-board {
-  height: 100vh;
-  width: 200px;
+.wrapper .nav-bar {
+  height: 62px;
+  width: 100%;
+  display: flex;
   position: fixed;
-  background: #86878a;
+  top: 0;
+  background: #fff;
 }
 
-.wrapper .user-item{
-    padding: 10px;
-    margin: 10px;
-    background: #873;
-    display: flex;
+.wrapper .nav-bar .logo {
+  height: 100%;
+  width: 250px;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  background: #332cc4;
 }
 
-.wrapper .dash-board .user-item .user-avatar{
-    height: 30px;
-    width: 30px;
-    background: #fff;
-    border-radius: 50%;
-}
-
-
-
-.wrapper .banner{
-    height: 100vh;
-    width: calc(100% - 200px);
-    margin-left: 200px;
-    background: #35363a;
+.wrapper .nav-bar .top-menu{
+    height: 100%;
+    width: 100%;
+    background: #777;
 }
