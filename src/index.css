@@ -55,7 +55,6 @@
   position: absolute;
   left: 100px;
   top: 25%;
-  /* background: #825; */
 }
 
 .wrapper .banner .app-text {
@@ -105,50 +104,4 @@
 .wrapper .social-btn ul li:hover {
   color: #d8c168;
   border: solid 1px;
-}
-
-.wrapper .container {
-  height: 100%;
-  width: 80%;
-  background: #252;
-  position: absolute;
-  top: 110%;
-  left: 100px;
-  display: flex;
-}
-
-.wrapper .container .dashboard {
-  width: 15%;
-  height: 100%;
-  background: #fff;
-}
-
-.wrapper .container .content {
-  height: 100%;
-  width: 85%;
-  background: #888;
-  position: relative;
-}
-
-.wrapper .container .content .header {
-  padding: 10px;
-  position: relative;
-  color: #fff;
-  background: #986;
-}
-
-.wrapper .container .content .header ul {
-  display: inline-flex;
-  list-style: none;
-  position: absolute;
-  top: 15px;
-  right: 20px;
-}
-
-.wrapper .container .content .header ul li {
-  height: 10px;
-  width: 10px;
-  background: #fff;
-  margin-left: 20px;
-  border-radius: 50%;
 }
