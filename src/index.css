@@ -31,5 +31,21 @@
 .wrapper .nav-bar .top-menu{
     height: 100%;
     width: 100%;
+    display: flex;
     background: #777;
+}
+
+.wrapper .nav-bar .top-menu .home-link{
+    padding: 20px;
+}
+
+.wrapper .nav-bar .top-menu .right-info{
+    position: absolute;
+    display: flex;
+    padding: 20px;
+    right: 0;
+}
+
+.wrapper .nav-bar .top-menu .right-info div{
+    margin-left: 20px;
 }

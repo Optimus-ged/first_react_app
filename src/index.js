@@ -10,8 +10,11 @@ const Wrapper = () => {
       <section className="nav-bar">
         <div className="logo">CODDING MARKET</div>
         <div className="top-menu">
-          <div className="home-link"></div>
-          <div className="right-info"></div>
+          <div className="home-link">Home</div>
+          <div className="right-info">
+            <div className="user-btn">Users</div>
+            <div className="client-btn">Clients</div>
+          </div>
         </div>
       </section>
     </article>
