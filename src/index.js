@@ -1,59 +1,31 @@
-// importing modules and dependancies
+// Importing dependancies and modules
 import React from "react";
 import ReactDom from "react-dom";
 import "./index.css";
-import bitcoin from "./images/bitcoin.png";
 
 // Building components
 const Wrapper = () => {
   return (
     <article className="wrapper">
-      <section className="nav-bar">
-        <ul>
-          <li>
-            <a href="http//www.google.com">Home</a>
-          </li>
-          <li>
-            <a href="http//www.google.com">Client</a>
-          </li>
-          <li>
-            <a href="http//www.google.com">Users</a>
-          </li>
-          <li>
-            <a href="http//www.google.com">Settings</a>
-          </li>
-          <li>
-            <a href="http//www.google.com">Exit</a>
-          </li>
-        </ul>
-        <p className="optimus">OptimusTec</p>
-      </section>
-      <section className="banner">
-        <div className="app-text">
-          <h1>Optimus code for bitcoin witch is the better than Gold</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat
-            illo voluptatibus eveniet recusandae quod porro. At necessitatibus
-            dicta libero eum! Eos, ducimus repellendus mollitia rem quos ad
-            officia error cum.
-          </p>
-        </div>
-        <div className="app-toph">
-          <img src={bitcoin} alt="bitcoin toph" />
-        </div>
-      </section>
-      <section className="social-btn">
-        <ul>
-          <li>g</li>
-          <li>w</li>
-          <li>f</li>
-          <li>t</li>
-          <li>y</li>
-        </ul>
-      </section>
+      <div className="dash-board">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi hic
+          velit deserunt incidunt obcaecati atque nostrum fuga suscipit libero
+          facilis! Eligendi odit cumque architecto eos optio consequatur maxime
+          unde voluptatum?
+        </p>
+      </div>
+      <div className="content">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis,
+          voluptas natus! Fugiat, tempora ullam quisquam numquam, ipsam porro
+          corrupti quod dolor reprehenderit quasi nihil praesentium inventore,
+          corporis laborum debitis quidem!
+        </p>
+      </div>
     </article>
   );
 };
 
-// Exporting module
+// Exporting
 ReactDom.render(<Wrapper />, document.getElementById("root"));
