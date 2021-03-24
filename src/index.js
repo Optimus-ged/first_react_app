@@ -1,4 +1,4 @@
-// Import dependancies and modules
+// Importing dependdancies and modules
 import React from 'react';
 import ReactDom from 'react-dom';
 import "./index.css";
@@ -10,10 +10,10 @@ const Wrapper = ()=>{
       <div className="user-item">
         <div className="avatar"></div>
         <div className="content">
-          <p className="name">Optimus ged</p>
-          <p className="message">Est'ce que tout va bien ?</p>
+          <p className="name">Optimus Ged</p>
+          <p className="msg">Slt !!! sava ?</p>
         </div>
-        <p className="heure">12:20</p>
+        <p className="heure">12:30</p>
       </div>
     </article>
   );
