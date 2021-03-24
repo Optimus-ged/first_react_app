@@ -1,54 +1,55 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.wrapper{
-    height: 100vh;
-    background: #3B4043;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
+.wrapper {
+  height: 100vh;
+  background: #35363a;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 40px;
 }
 
-.wrapper .user-item{
-    display: flex;
-    height: 60px;
-    width: 400px;
-    border-radius: 0.5rem;
-    align-items: center;
-    background: #fff;
-    padding-left: 10px;
-    position: relative;
+.wrapper .user-item {
+  height: 60px;
+  width: 400px;
+  border-radius: 0.5rem;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+  margin-top: 5px;
+  position: relative;
 }
 
-.wrapper .user-item .avatar{
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    background: #3B4043;
+.wrapper .user-item .avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: #35363a;
 }
 
-.wrapper .user-item .content{
-    margin-left: 10px;
-    font-size: 14px;
+.wrapper .user-item .content {
+  margin-left: 5px;
 }
 
-.wrapper .user-item .content .name{
-    color: #3B4043;
-    margin-bottom: 2px;
-    font-weight: bold;
-
+.wrapper .user-item .content .name {
+  font-weight: bold;
+  font-size: 13px;
+  color: #35363a;
 }
 
-.wrapper .user-item .content .msg{
-    font-size: 12px;
+.wrapper .user-item .content .msg {
+  font-size: 12px;
 }
 
-.wrapper .user-item  .heure{
-    position: absolute;
-    right: 20px;
-    font-size: 12px;
+.wrapper .user-item .content p {
+  margin-top: 2px;
+}
+
+.wrapper .user-item .heure {
+  font-size: 12px;
+  position: absolute;
+  right: 20px;
 }
