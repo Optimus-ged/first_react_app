@@ -17,5 +17,41 @@
 .wrapper .user-item {  
   background: #fff;
   height: 65px;
-  width: 300px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-left: 10px;
+  border-radius: 0.5rem;
+  font-size: 11px;
 }
+
+.wrapper .user-item .avatar{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background:#3b4043 ;
+    margin-right: 5px;
+}
+
+.wrapper .user-item .content{
+    background: #fff;
+}
+
+.wrapper .user-item .content .name{
+    font-size: 14px;
+}
+
+.wrapper .user-item .content .message{
+    font-size: 11px;
+}
+
+.wrapper .user-item .content p{
+    margin-top: 2px;
+}
+
+.wrapper .user-item .heure{
+    right: 20px;
+    position: absolute;
+}
+

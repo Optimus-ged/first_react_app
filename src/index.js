@@ -9,7 +9,11 @@ const Wrapper = ()=>{
     <article className="wrapper">
       <div className="user-item">
         <div className="avatar"></div>
-        <div className="content"></div>
+        <div className="content">
+          <p className="name">Optimus ged</p>
+          <p className="message">Est'ce que tout va bien ?</p>
+        </div>
+        <p className="heure">12:20</p>
       </div>
     </article>
   );
