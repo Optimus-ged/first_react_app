@@ -1,19 +1,19 @@
 // Importing dependancies and modules
-import React from "react";
-import ReactDom from "react-dom";
+import React from 'react';
+import ReactDom from 'react-dom';
 import "./index.css";
 
-// Building components
-const Wrapper = () => {
+// Buidling components
+const Wrapper = ()=>{
   return (
     <article className="wrapper">
       <section className="nav-bar">
-        <div className="logo">Coding Market</div>
-        <div className="top-header">
-          <div className="home-link">Home</div>
-          <div className="right-menus">
-            <p className="user-btn">User</p>
-            <p className="client-btn">Client</p>
+        <div className="logo">OptimusTec</div>
+        <div className="right-part">
+          <div className="home-btn">Home</div>
+          <div className="menus">
+            <p>Clients</p>
+            <p>Users</p>
           </div>
         </div>
       </section>
@@ -21,5 +21,5 @@ const Wrapper = () => {
   );
 };
 
-// Exporting modules
-ReactDom.render(<Wrapper />, document.getElementById("root"));
+// Exporting module
+ReactDom.render(<Wrapper/>, document.getElementById("root"));
