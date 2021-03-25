@@ -1,27 +1,30 @@
-* {
+*{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-.wrapper {
+.wrapper{
   height: 100vh;
+  background: #35363A;
   font-family: Arial, Helvetica, sans-serif;
-  background: #35363a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper .container{
+  height: 400px;
+  width: 300px;
+  background: #394043;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.wrapper .container {
-  height: 400px;
-  width: 300px;
-  background: #3b4043;
-}
-
-.wrapper .container .avatar {
+.wrapper .container .avatar{
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  background: #35363a;
+  background: #35363A;
 }
