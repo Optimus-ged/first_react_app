@@ -4,15 +4,20 @@ import ReactDom from 'react-dom';
 import "./index.css";
 
 // Building components
-const Wrapper = ()=>{
+const Wrapper=()=>{
   return (
     <article className="wrapper">
-      <section className="container">
+      <div className="user-component">
         <div className="avatar"></div>
-      </section>
+        <div className="content">
+          <p className="name">Optimus ged</p>
+          <p className="msg">Eh man t'es ou ?</p>
+        </div>
+        <p className="heure">12:30</p>
+      </div>
     </article>
   );
 };
 
-// Exporting module
+// Exporting modules
 ReactDom.render(<Wrapper/>, document.getElementById("root"));

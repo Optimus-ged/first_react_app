@@ -8,23 +8,42 @@
   height: 100vh;
   background: #35363A;
   font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding-top: 200px;
 }
 
-.wrapper .container{
-  height: 400px;
-  width: 300px;
-  background: #394043;
+.wrapper .user-component{
+  height: 60px;
+  width: 400px;
+  background: #5A5E60;
+  margin: auto;
+  border-radius: 0.3rem;
+  padding-left: 5px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  position: relative;
 }
 
-.wrapper .container .avatar{
-  height: 100px;
-  width: 100px;
+.wrapper .user-component .avatar{
+  height: 50px;
+  width: 50px;
   border-radius: 50%;
   background: #35363A;
+}
+
+.wrapper .user-component .content{
+  margin-left: 8px;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: bold;
+}
+
+.wrapper .user-component .content .msg{
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.wrapper .user-component .heure{
+  font-size: 11px;
+  position: absolute;
+  right: 20px;
 }
