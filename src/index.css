@@ -16,9 +16,10 @@
 .wrapper .container {
   height: 500px;
   width: 400px;
-  padding: 10px;
+  padding: 5px;
   background: #3b4043;
-  margin-right: 10px;
+  margin-right: 5px;
+  
 }
 
 .wrapper .container .msg-in {
@@ -28,6 +29,7 @@
   float: left;
   padding: 10px;
   color: #b4b8bb;
+  
 }
 
 .wrapper .container .msg-out {
@@ -37,6 +39,7 @@
   float: right;
   padding: 10px;
   color: #b4b8bb;
+  
 }
 
 .wrapper .container .space-between {

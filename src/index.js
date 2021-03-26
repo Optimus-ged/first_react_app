@@ -2,13 +2,38 @@
 import React from "react";
 import ReactDom from "react-dom";
 import "./index.css";
+import "./index2.css";
 
 // Building components
 const Wrapper = () => {
   return (
     <article className="wrapper">
       <div className="container">
-
+        <UserItem
+          name="Optimus ged"
+          message="Slt big bro ! hier t'es pas venu why ?"
+          heure="08:25"
+        />
+        <UserItem
+          name="Salem Nzolani"
+          message="Je me demande si demain on a cours !"
+          heure="10:22"
+        />
+        <UserItem
+          name="John Kuhanda"
+          message="Hier soir on etait ensemble"
+          heure="15:14"
+        />
+        <UserItem
+          name="Adele Bash"
+          message="J'en ai fini avec TAF"
+          heure="07:53"
+        />
+        <UserItem
+          name="Sisi Bashwira"
+          message="Demain je serai en ville et toi ?"
+          heure="11:32"
+        />
       </div>
       <div className="container">
         <GestMessage />
@@ -25,10 +50,15 @@ const Wrapper = () => {
 };
 
 // Building User item
-const UserItem =()=>{
+const UserItem =(props)=>{
   return (
     <div className="user-item">
       <div className="avatar"></div>
+      <div className="content">
+        <p className="name">{props.name}</p>
+        <p className="msg">{props.message}</p>
+        <p className="heure">{props.heure}</p>
+      </div>
     </div>
   );
 };
