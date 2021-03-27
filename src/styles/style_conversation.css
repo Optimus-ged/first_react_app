@@ -1,0 +1,27 @@
+.msg-in {
+  font-size: 13px;
+  width: 180px;
+  background: #35363a;
+  float: left;
+  padding: 10px;
+  color: #b4b8bb;
+  
+}
+
+
+.space-between {
+  height: 20px;
+  display: block;
+  clear: both;
+}
+
+.msg-out {
+  font-size: 13px;
+  width: 180px;
+  background: #35363a;
+  float: right;
+  padding: 10px;
+  color: #b4b8bb;
+  
+}
+

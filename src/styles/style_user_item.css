@@ -1,4 +1,4 @@
-.wrapper .container .user-item {
+.user-item {
   height: 60px;
   background: #35363a;
   display: flex;
@@ -7,14 +7,14 @@
   margin-bottom: 5px;
 }
 
-.wrapper .container .user-item .avatar {
+.user-item .avatar {
   height: 50px;
   width: 50px;
   border-radius: 50%;
   background: #2d2d2d;
 }
 
-.wrapper .container .user-item .content {
+.user-item .content {
   padding-left: 10px;
   font-size: 14px;
   font-weight: bold;
@@ -24,12 +24,12 @@
   width: 83%;
 }
 
-.wrapper .container .user-item .content .msg {
+.user-item .content .msg {
   font-weight: normal;
   font-size: 13px;
 }
 
-.wrapper .container .user-item .content .heure {
+.user-item .content .heure {
   position: absolute;
   font-size: 12px;
   right: 0;

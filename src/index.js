@@ -1,8 +1,10 @@
 // Importing depedancies and modules
 import React from "react";
 import ReactDom from "react-dom";
-import "./index.css";
-import "./index2.css";
+// Importing all css modules
+import "./styles/style_global.css";
+import "./styles/style_user_item.css";
+import "./styles/style_conversation.css";
 
 // Building components
 const Wrapper = () => {
@@ -26,7 +28,7 @@ const Wrapper = () => {
         />
         <UserItem
           name="Adele Bash"
-          message="J'en ai fini avec TAF"
+          message="J'en ai fini avec ce TAF"
           heure="07:53"
         />
         <UserItem
