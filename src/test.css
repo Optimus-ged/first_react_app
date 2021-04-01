@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  height: 1500px;
+  background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #d4cfc9;
+}
+
+.wrapper .header {
+  height: 60px;
+  background: #014b6a;
+}
+
+.wrapper .header .header-content {
+  height: 100%;
+  width: 72%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.wrapper .header .header-content .title {
+  position: absolute;
+  left: 0;
+  font-size: 18px;
+}
+
+.wrapper .header .header-content ul {
+  position: absolute;
+  right: 0;
+  font-size: 14px;
+  display: inline-flex;
+}
+
+.wrapper .header .header-content ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+
+.wrapper .banner {
+  height: 196px;
+  background: #302d1d;
+  padding-top: 40px;
+}
+
+.wrapper .banner .container {
+  height: 80px;
+  width: 72%;
+  margin: auto;
+  border: 5px #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+  border-bottom: 2px #3c4446 solid;
+  border-top: 2px #3c4446 solid;
+}
+
+.wrapper .banner-2 {
+  height: 100%;
+  background: #171a1b;
+  
+}
+
+.wrapper .banner-2 .container-2{
+    width: 72%;
+    padding-top: 40px;
+    margin: auto;
+    line-height: 30px;
+}
+
+.wrapper .banner-2 .container-2 .title-1{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.wrapper .banner-2 .container-2 .important{
+    color: #86BB72;
+}
+
+
+.wrapper .banner-2 .container-2 .title-2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
