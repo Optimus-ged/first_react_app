@@ -88,8 +88,13 @@ const Wrapper = () => {
           and can be deployed with one-click installers. Visit the Bitnami XAMPP
           page for details on the currently available apps.
         </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
+          possimus. Aliquid quod commodi modi esse natus? Quae similique rem,
+          neque dolor dignissimos numquam quasi expedita aperiam cum assumenda
+          reiciendis id
+        </p>
         <ul className="items">
-          <li></li>
           <li></li>
           <li></li>
           <li></li>
