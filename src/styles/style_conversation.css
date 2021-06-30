@@ -7,10 +7,8 @@
   color: #b4b8bb;
 }
 
-
 .space-between {
   height: 20px;
-  display: block;
   clear: both;
 }
 
@@ -21,6 +19,5 @@
   float: right;
   padding: 10px;
   color: #b4b8bb;
-  
 }
 
