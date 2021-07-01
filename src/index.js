@@ -7,6 +7,39 @@ import "./styles/style_global.css";
 import "./styles/style_user_item.css";
 import "./styles/style_conversation.css";
 
+// Building User item
+const UserItem = (props) => {
+  return (
+    <div className="user-item">
+      <div className="avatar"></div>
+      <div className="content">
+        <p className="name">{props.name}</p>
+        <p className="msg">{props.message}</p>
+        <p className="heure">{props.heure}</p>
+      </div>
+    </div>
+  );
+};
+
+// Building gest Message
+const GestMessage = () => {
+  return (
+    <div className="msg-in">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    </div>
+  );
+};
+
+// Building my message
+const MyMessage = () => {
+  return (
+    <div className="msg-out">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    </div>
+  );
+};
+
+
 // Building components
 const Wrapper = () => {
   return (
@@ -49,38 +82,6 @@ const Wrapper = () => {
         <div className="space-between"></div>
       </div>
     </article>
-  );
-};
-
-// Building User item
-const UserItem = (props) => {
-  return (
-    <div className="user-item">
-      <div className="avatar"></div>
-      <div className="content">
-        <p className="name">{props.name}</p>
-        <p className="msg">{props.message}</p>
-        <p className="heure">{props.heure}</p>
-      </div>
-    </div>
-  );
-};
-
-// Building gest Message
-const GestMessage = () => {
-  return (
-    <div className="msg-in">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    </div>
-  );
-};
-
-// Building my message
-const MyMessage = () => {
-  return (
-    <div className="msg-out">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    </div>
   );
 };
 
