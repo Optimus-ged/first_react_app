@@ -70,12 +70,7 @@ const Wrapper = () => {
           message="Demain je serai en ville et toi ?"
           heure="11:32"
         />
-        <p className="test">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique,
-          in placeat sed laudantium accusamus consequatur, ex consectetur cumque
-          amet rem suscipit voluptatum. Cupiditate suscipit quam voluptas optio
-          enim sint quis!
-        </p>
+        <h2 className="test">Optimus Tec</h2>
       </div>
       <div className="container">
         <GestMessage />
