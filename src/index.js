@@ -6,6 +6,7 @@ import ReactDom from "react-dom";
 import "./styles/style_global.css";
 import "./styles/style_user_item.css";
 import "./styles/style_conversation.css";
+import "./styles/delete.css";
 
 // Building User item
 const UserItem = (props) => {
@@ -39,7 +40,6 @@ const MyMessage = () => {
   );
 };
 
-
 // Building components
 const Wrapper = () => {
   return (
@@ -70,6 +70,12 @@ const Wrapper = () => {
           message="Demain je serai en ville et toi ?"
           heure="11:32"
         />
+        <p className="test">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique,
+          in placeat sed laudantium accusamus consequatur, ex consectetur cumque
+          amet rem suscipit voluptatum. Cupiditate suscipit quam voluptas optio
+          enim sint quis!
+        </p>
       </div>
       <div className="container">
         <GestMessage />

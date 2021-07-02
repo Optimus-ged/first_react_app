@@ -1,0 +1,9 @@
+.test {
+  color: #b4b8bb;
+  font-size: 10px;
+  text-indent: 100px;
+  text-transform: lowercase;
+  word-spacing: 20px;
+  letter-spacing: 10px; 
+  line-height: 50px;
+}
