@@ -21,3 +21,22 @@
   color: #b4b8bb;
 }
 
+.test {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  color: #b4b8bb;
+  font-size: 38px;
+  text-align: center;
+  display: block;
+  padding: 10px;
+  background-color: #1123;
+}
+
+.test-2 {
+  text-align: justify;
+  line-height: 25px;
+  font-size: 15px;
+}
+
+

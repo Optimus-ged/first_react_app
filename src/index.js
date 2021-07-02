@@ -6,7 +6,6 @@ import ReactDom from "react-dom";
 import "./styles/style_global.css";
 import "./styles/style_user_item.css";
 import "./styles/style_conversation.css";
-import "./styles/delete.css";
 
 // Building User item
 const UserItem = (props) => {
