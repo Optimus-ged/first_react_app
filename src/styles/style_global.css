@@ -14,7 +14,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.wrapper .container {
+.wrapper .container-n {
   height: 500px;
   width: 400px;
   padding: 5px;
@@ -22,5 +22,16 @@
   margin-right: 5px;
   overflow-x: hidden;
   overflow-y: scroll;
+  position: relative;
+}
+
+.wrapper .container {
+  height: 500px;
+  width: 400px;
+  padding: 5px;
+  background: #3b4043;
+  margin-right: 5px;
+  overflow-x: hidden;
+  overflow-y: hidden;
   position: relative;
 }
