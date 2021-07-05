@@ -8,8 +8,8 @@
   height: 100vh;
   background: #35363a;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -17,6 +17,9 @@
   height: 500px;
   width: 800px;
   background: #292a2d;
+  position: relative;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .container .nav-bar {
@@ -26,6 +29,9 @@
   display: flex;
   align-items: center;
   overflow-y: hidden;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .nav-bar ul {
@@ -56,5 +62,31 @@
   font-size: 13px;
   color: #fff;
   opacity: 0.2;
+  line-height: 25px;
+}
+
+.container .information {
+  height: 100px;
+  background-color: #202124;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 100px;
+  display: flex;
+}
+
+.container .information .begin {
+  height: 100px;
+  width: 05px;
+  background-color: #493133;
+  margin-right: 10px;
+}
+
+.container .information .content-2 {
+  height: 100px;
+  width: 500px;
+  color: #fff;
+  opacity: 0.2;
+  font-size: 13px;
+  padding-top: 10px;
   line-height: 25px;
 }

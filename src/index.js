@@ -184,6 +184,22 @@ const NavBar = () => {
   );
 };
 
+// Building information
+const Infromation = () => {
+  return (
+    <div className="information">
+      <div className="begin"></div>
+      <div className="content-2">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam
+          repellendus deserunt porro ex repudiandae dicta laborum illo, alias
+          illum fugit repellat dignissimos qui quaerat recusandae blanditiis
+          commodi nihil sequi adipisci.
+        </p>
+      </div>
+    </div>
+  );
+};
 const Wrapper = () => {
   return (
     <article className="wrapper">
@@ -194,12 +210,20 @@ const Wrapper = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sed
             nihil temporibus beatae voluptatem ab perferendis dolores non
             ratione a, ea harum provident sit magni, illum minima velit aliquid
-            eum? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            {/* eum? Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Tempore deleniti placeat similique quidem ex eaque sequi itaque
             dignissimos minus, quisquam ipsum non, temporibus in. Asperiores,
-            ducimus quasi. Distinctio, soluta odit? Lorem ipsum.
+            ducimus quasi. Distinctio, soluta odit? Lorem ipsum. */}
           </p>
         </div>
+        <Infromation />
+        <Infromation />
+        <Infromation />
+        {/* <Infromation />
+        <Infromation />
+        <Infromation /> */}
+        <br />
+        <br />
       </div>
     </article>
   );
