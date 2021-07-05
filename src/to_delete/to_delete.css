@@ -1,60 +1,60 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.wrapper{
-    height: 100vh;
-    background: #35363A;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
+.wrapper {
+  height: 100vh;
+  background: #35363a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.wrapper .container{
-    height: 500px;
-    width: 800px;
-    background: #292A2D;
+.wrapper .container {
+  height: 500px;
+  width: 800px;
+  background: #292a2d;
 }
 
-.wrapper .container .nav-bar{
-    height: 60px;
-    width: 800px;
-    background-color: #202124;
-    display: flex;  
-    align-items: center;
-    overflow-y: hidden;
+.container .nav-bar {
+  height: 60px;
+  width: 800px;
+  background-color: #202124;
+  display: flex;
+  align-items: center;
+  overflow-y: hidden;
 }
 
-.wrapper .container .nav-bar ul{
-    list-style-type: none;
-    
+.nav-bar ul {
+  list-style: none;
 }
 
-.nav-bar ul li a{
-    margin: 0px 0px;
-    padding: 20px 20px;
-    text-decoration: none;
-    color: #F0F0F0;
-    font-size: 15px;
+.nav-bar ul li a {
+  text-decoration: none;
+  padding: 25px 20px;
+  font-size: 15px;
+  color: #fff;
+  opacity: 0.7;
 }
 
-.nav-bar ul li a:hover{
-    margin: 0px 0px;
-    padding: 50px 20px;
-    text-decoration: none;
-    color: #F0F0F0;
-    background: #000;
+.nav-bar ul li a:hover {
+  text-decoration: none;
+  padding: 25px 20px;
+  font-size: 15px;
+  color: #fff;
+  opacity: 1;
+  background: #000;
 }
 
-.wrapper .content{
-    margin-left: 20px;
-    margin-right: 30px;
-    margin-top: 20px;
-    font-size: 13px;
-    color: #F0F0F0;
-    opacity: 0.2;
-    line-height: 20px;
+.container .content {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 50px;
+  font-size: 13px;
+  color: #fff;
+  opacity: 0.2;
+  line-height: 25px;
 }

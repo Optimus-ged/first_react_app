@@ -167,35 +167,20 @@ import ReactDom from "react-dom";
 // Styles
 import "./to_delete/to_delete.css";
 
-// Building nav-bar
+// Building the nav-bar
 const NavBar = () => {
   return (
     <div className="nav-bar">
       <ul>
         <li>
-          <a href="www.go.com">Home</a>
-          <a href="www.go.com">User</a>
-          <a href="www.go.com">Customer</a>
-          <a href="www.go.com">Settings</a>
-          <a href="www.go.com">Exit</a>
+          <a href="www.g.com">Home</a>
+          <a href="www.g.com">User</a>
+          <a href="www.g.com">Custom</a>
+          <a href="www.g.com">Agent</a>
+          <a href="www.g.com">Settings</a>
         </li>
       </ul>
     </div>
-  );
-};
-
-// Building content
-const Content = () => {
-  return (
-    <p className="content">
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime ullam ea
-      accusamus, consequatur quam nulla expedita? Doloremque sit, quibusdam
-      cumque recusandae exercitationem magnam sequi corporis quia adipisci id
-      ullam iusto. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-      Nobis labore tempora iure, itaque consectetur, deleniti odio at deserunt
-      necessitatibus sequi autem quis quas magni aperiam nemo nisi voluptatem
-      consequuntur illo.
-    </p>
   );
 };
 
@@ -204,7 +189,17 @@ const Wrapper = () => {
     <article className="wrapper">
       <div className="container">
         <NavBar />
-        <Content/>
+        <div className="content">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sed
+            nihil temporibus beatae voluptatem ab perferendis dolores non
+            ratione a, ea harum provident sit magni, illum minima velit aliquid
+            eum? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Tempore deleniti placeat similique quidem ex eaque sequi itaque
+            dignissimos minus, quisquam ipsum non, temporibus in. Asperiores,
+            ducimus quasi. Distinctio, soluta odit? Lorem ipsum.
+          </p>
+        </div>
       </div>
     </article>
   );
