@@ -161,24 +161,37 @@
 // // Exporting modules
 // ReactDom.render(<Wrapper />, document.getElementById("root"));
 
-import React from 'react';
-import ReactDom from 'react-dom';
+import React from "react";
+import ReactDom from "react-dom";
 
-// // Importing all css modules
-import './styles/style_global.css';
-import './to_delete/to_delete.css'
-// import "./styles/style_user_item.css";
-// import "./styles/style_conversation.css";
+// Styles
+import "./to_delete/to_delete.css";
 
+// Building nav-bar
+const NavBar = () => {
+  return (
+    <div className="nav-bar">
+      <ul>
+        <li>
+          <a href="www.go.com">Home</a>
+          <a href="www.go.com">User</a>
+          <a href="www.go.com">Customer</a>
+          <a href="www.go.com">Settings</a>
+          <a href="www.go.com">Exit</a>
+        </li>
+      </ul>
+    </div>
+  );
+};
 
-const Wrapper = ()=>{
-  return(
+const Wrapper = () => {
+  return (
     <article className="wrapper">
-      <div className="test-container">
-
+      <div className="container">
+        <NavBar/>
       </div>
     </article>
   );
 };
 
-ReactDom.render(<Wrapper/>, document.getElementById('root'));
+ReactDom.render(<Wrapper />, document.getElementById("root"));
