@@ -164,10 +164,19 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 
+// // Importing all css modules
+import './styles/style_global.css';
+import './to_delete/to_delete.css'
+// import "./styles/style_user_item.css";
+// import "./styles/style_conversation.css";
+
+
 const Wrapper = ()=>{
   return(
-    <article>
+    <article className="wrapper">
+      <div className="test-container">
 
+      </div>
     </article>
   );
 };
