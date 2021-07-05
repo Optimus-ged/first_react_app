@@ -161,4 +161,15 @@
 // // Exporting modules
 // ReactDom.render(<Wrapper />, document.getElementById("root"));
 
+import React from 'react';
+import ReactDom from 'react-dom';
 
+const Wrapper = ()=>{
+  return(
+    <article>
+
+    </article>
+  );
+};
+
+ReactDom.render(<Wrapper/>, document.getElementById('root'));
