@@ -48,3 +48,13 @@
     color: #F0F0F0;
     background: #000;
 }
+
+.wrapper .content{
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-top: 20px;
+    font-size: 13px;
+    color: #F0F0F0;
+    opacity: 0.2;
+    line-height: 20px;
+}

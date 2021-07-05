@@ -184,11 +184,27 @@ const NavBar = () => {
   );
 };
 
+// Building content
+const Content = () => {
+  return (
+    <p className="content">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime ullam ea
+      accusamus, consequatur quam nulla expedita? Doloremque sit, quibusdam
+      cumque recusandae exercitationem magnam sequi corporis quia adipisci id
+      ullam iusto. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+      Nobis labore tempora iure, itaque consectetur, deleniti odio at deserunt
+      necessitatibus sequi autem quis quas magni aperiam nemo nisi voluptatem
+      consequuntur illo.
+    </p>
+  );
+};
+
 const Wrapper = () => {
   return (
     <article className="wrapper">
       <div className="container">
-        <NavBar/>
+        <NavBar />
+        <Content/>
       </div>
     </article>
   );
