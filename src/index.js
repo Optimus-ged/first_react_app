@@ -161,3 +161,35 @@
 // // Exporting modules
 // ReactDom.render(<Wrapper />, document.getElementById("root"));
 
+import React from "react";
+import ReactDom from "react-dom";
+
+// Styles
+import "./to_delete/to_delete.css";
+
+const Wrapper = () => {
+  return (
+    <article className="wrapper">
+      <h1>Optimus Tec</h1>
+        <div className="container-a">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi ad
+            dignissimos illo, earum voluptas ducimus praesentium unde ullam
+            ipsam consectetur deleniti alias iste dolorem expedita animi
+            reiciendis sint dolores. Magnam?
+          </p>
+        </div>
+        <br />
+        <div className="container-b">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa fuga
+            quisquam, numquam laboriosam, in dolor dolore culpa modi repudiandae
+            et soluta delectus perspiciatis illum facere quaerat, magni iure
+            quam repellat.
+          </p>
+        </div>
+    </article>
+  );
+};
+
+ReactDom.render(<Wrapper />, document.getElementById("root"));
