@@ -13,20 +13,28 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.wrapper .dropview {
-  margin-top: 10px;
+.wrapper .dropdown {
+  margin-top: 5px;
   cursor: default;
 }
 
-.dropview .dropview-content {
+.dropdown .dropdown-content {
+  font-size: 15px;
+  min-width: 200px;
+  background-color: #292a2d;
+  position: absolute;  
   display: none;
-  padding: 10px;
-  font-size: 14px;
-  background: #292a2d;
-  position: absolute;
-  min-width: 300px;
 }
 
-.dropview:hover .dropview-content {
-  display: block;
+.dropdown .dropdown-content p {
+  padding: 10px 5px;
+}
+
+.dropdown .dropdown-content p:hover {
+  padding: 10px 5px;
+  background-color: rgb(65, 65, 65);
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
 }

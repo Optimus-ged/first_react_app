@@ -1,22 +1,20 @@
-import React from 'react';
-import ReactDom from 'react-dom';
+import React from "react";
+import ReactDom from "react-dom";
 
 // Styles
 import './to_delete/to_delete.css';
 
-const Wrapper = ()=>{
+const Wrapper = () => {
   return (
     <article className="wrapper">
-      <h2>Handling Dropviews with Css code</h2>
-      <div className="dropview">
-        <p>See the dropview</p>
-        <div className="dropview-content">
-          <p>File Editing</p>
-          <br />
-          <p>Project settings</p>
-          <br />
+      <h2>Handling css dropviews</h2>
+      <div className="dropdown">
+        <span>see the dropview</span>
+        <div className="dropdown-content">
+          <p>Editing file</p>
+          <p>Users</p>
+          <p>Customers</p>
           <p>Help</p>
-          <br />
           <p>Exit app</p>
         </div>
       </div>
@@ -24,4 +22,4 @@ const Wrapper = ()=>{
   );
 };
 
-ReactDom.render(<Wrapper/>, document.getElementById('root'));
+ReactDom.render(<Wrapper />, document.getElementById("root"));
