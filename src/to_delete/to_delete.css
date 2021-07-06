@@ -16,6 +16,7 @@
 .wrapper .dropdown {
   margin-top: 5px;
   cursor: default;
+  position: relative;
 }
 
 .dropdown .dropdown-content {
