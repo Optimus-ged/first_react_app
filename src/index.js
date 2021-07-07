@@ -1,21 +1,21 @@
-// Importing depedancies
+// Importing dependancies
 import React from "react";
 import ReactDom from "react-dom";
 
-// Importing components
-import { Button } from "./components/button.style";
+//  Importing components
 import { Wrapper } from "./components/wrapper.style";
-import { GlobalStyle } from "./components/global_style";
+import { Button } from "./components/button.style";
 
+
+// Building component
 const App = () => {
   return (
-    <Wrapper>
-      <GlobalStyle/>
-      <h1>Optimus ged</h1>
-      <h2>Le grand trombonnier sisabidimu</h2>
-      <Button bgc="#000"></Button>
-      <Button bgc="green"></Button>
-    </Wrapper>
+   
+      <Wrapper>
+        <h1>Optimus ged the Boss</h1>
+        <Button>Visiter</Button>
+      </Wrapper>
+    
   );
 };
 

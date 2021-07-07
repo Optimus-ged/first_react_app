@@ -1,12 +1,12 @@
-// Importing depedancies
+// Importing dependancies
 import styled from "styled-components";
 
-// Building button component
+// Building components
 export const Button = styled.button`
-  height: 100px;
-  width: 400px;
-  background-color: ${(props) => props.bgc};
+  max-height: 40px;
+  min-width: 100px;
+  background-color: ${(props) => props.backgroundColor};
   &:hover {
-    background-color: red;
+    background-color: green;
   }
 `;
