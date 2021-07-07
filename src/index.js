@@ -4,16 +4,17 @@ import ReactDom from "react-dom";
 
 // Importing components
 import { Button } from "./components/button.style";
+import { Wrapper } from "./components/wrapper.style";
 
-const Wrapper = () => {
+const App = () => {
   return (
-    <div>
+    <Wrapper>
       <h1>Optimus ged</h1>
       <h2>Le grand trombonnier sisabidimu</h2>
       <Button bgc="#000"></Button>
       <Button bgc="green"></Button>
-    </div>
+    </Wrapper>
   );
 };
 
-ReactDom.render(<Wrapper />, document.getElementById("root"));
+ReactDom.render(<App />, document.getElementById("root"));
