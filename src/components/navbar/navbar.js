@@ -1,6 +1,6 @@
 // Imporing dependancies
 import React from "react";
-import { Nav, NavbarContainer } from "./navbar.elements";
+import { Nav, NavbarContainer, NavLogo, NavIcon } from "./navbar.elements";
 
 // Building components
 const Navbar = () => {
