@@ -92,3 +92,25 @@ export const NavItems = styled.li`
   }
 `;
 
+
+// Building the Navigation items links
+export const NavLinks = styled(Link)`
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  height: 100%;
+  padding: 0.5rem 1rem;
+
+  @media screen and (max-width: 960px) {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+    &:hover {
+      color: #4b59f7;
+      transition: all 0.3s ease;
+    }
+  }
+`;
+
