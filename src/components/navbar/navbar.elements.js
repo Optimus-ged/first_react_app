@@ -70,7 +70,7 @@ export const NavMenu = styled.div`
     height: 90vh;
     position: absolute;
     top: 80px;
-    left: ${({click}) => (click ? 0 : "-100%")};
+    left: ${({ click }) => (click ? 0 : "-100%")};
     opacity: 1;
     transition: all 0.5s ease;
     background: #101522;
@@ -112,4 +112,28 @@ export const NavLinks = styled(Link)`
       transition: all 0.3s ease;
     }
   }
+`;
+
+// Building the Navigation item button
+export const NavItemBtn = styled.li`
+  @media screen and (max-width: 960px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 100%;
+  }
+`;
+
+// Building the navigation button link
+export const NavBtnLink = styled(Link)`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 8px 16px;
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
 `;
