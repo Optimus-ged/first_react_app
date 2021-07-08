@@ -8,6 +8,8 @@ import {
   NavLogo,
   NavIcon,
   MobileIcon,
+  NavMenu,
+  NavLinks,
 } from "./navbar.elements";
 
 // Building components
@@ -28,6 +30,11 @@ const Navbar = () => {
             <MobileIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
             </MobileIcon>
+            <NavMenu>
+              <NavItems>
+                <NavLinks></NavLinks>
+              </NavItems>
+            </NavMenu>
           </NavbarContainer>
         </Nav>
       </IconContext.Provider>

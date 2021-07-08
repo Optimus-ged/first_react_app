@@ -55,3 +55,25 @@ export const MobileIcon = styled.div`
     cursor: pointer;
   }
 `;
+
+// Building the navigatoion bar Menu
+export const NavMenu = styled.div`
+  display: flex;
+  list-style: none;
+  text-align: center;
+  align-items: center;
+
+  @media screen and (max-width: 960px) {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 100%;
+    top: 80px;
+    left: ${(click) => (click ? 0 : "-100%")};
+    opacity: 1;
+    transition: all 0.5s ease;
+    background: #101522;
+  }
+`;
+
+
