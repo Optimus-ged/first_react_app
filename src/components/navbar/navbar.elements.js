@@ -76,4 +76,19 @@ export const NavMenu = styled.div`
   }
 `;
 
+// Building the navigation Items
+export const NavItems = styled.li`
+  height: 80px;
+  border-bottom: 2px solid transparent;
+  &:hover {
+    border-bottom: 2px solid #4b59f7;
+  }
+
+  @media screen and (max-width: 960px) {
+    width: 100%;
+    &:hover {
+      border: none;
+    }
+  }
+`;
 
