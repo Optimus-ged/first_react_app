@@ -1,12 +1,19 @@
 // Imporing dependancies
 import React from "react";
-import { Nav } from "./navbar.elements";
+import { Nav, NavbarContainer } from "./navbar.elements";
 
 // Building components
 const Navbar = () => {
   return (
     <>
-      <Nav>Test</Nav>
+      <Nav>
+        <NavbarContainer>
+          <NavLogo to="/">
+            <NavIcon />
+            ULTRA
+          </NavLogo>
+        </NavbarContainer>
+      </Nav>
     </>
   );
 };
