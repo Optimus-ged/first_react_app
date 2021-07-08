@@ -1,5 +1,6 @@
 // Importing dependancies
 import styled from "styled-components";
+import { FaMagento } from "react-icons/fa";
 import { Container } from "../../global_styles";
 
 // Building the nav elements
@@ -32,4 +33,9 @@ export const NavLogo = styled(Link)`
   font-size: 2rem;
   align-items: center;
   text-decoration: none;
+`;
+
+// Building the nav icon element
+export const NavIcon = styled(FaMagento)`
+  margin-right: 0.5rem;
 `;
