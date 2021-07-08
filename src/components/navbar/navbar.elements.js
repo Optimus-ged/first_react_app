@@ -66,10 +66,11 @@ export const NavMenu = styled.div`
   @media screen and (max-width: 960px) {
     display: flex;
     flex-direction: column;
-    height: 90vh;
     width: 100%;
+    height: 90vh;
+    position: absolute;
     top: 80px;
-    left: ${(click) => (click ? 0 : "-100%")};
+    left: ${({click}) => (click ? 0 : "-100%")};
     opacity: 1;
     transition: all 0.5s ease;
     background: #101522;
@@ -77,7 +78,7 @@ export const NavMenu = styled.div`
 `;
 
 // Building the navigation Items
-export const NavItems = styled.li`
+export const NavItem = styled.li`
   height: 80px;
   border-bottom: 2px solid transparent;
   &:hover {
@@ -91,7 +92,6 @@ export const NavItems = styled.li`
     }
   }
 `;
-
 
 // Building the Navigation items links
 export const NavLinks = styled(Link)`
@@ -113,4 +113,3 @@ export const NavLinks = styled(Link)`
     }
   }
 `;
-

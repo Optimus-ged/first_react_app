@@ -8,6 +8,7 @@ import {
   NavLogo,
   NavIcon,
   MobileIcon,
+  NavItem,
   NavMenu,
   NavLinks,
 } from "./navbar.elements";
@@ -30,10 +31,20 @@ const Navbar = () => {
             <MobileIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
             </MobileIcon>
-            <NavMenu>
-              <NavItems>
-                <NavLinks></NavLinks>
-              </NavItems>
+            <NavMenu onClick={handleClick}>
+              <NavItem>
+                <NavLinks to="/">Home</NavLinks>
+              </NavItem>
+            </NavMenu>
+            <NavMenu onClick={handleClick}>
+              <NavItem>
+                <NavLinks to="/services">Services</NavLinks>
+              </NavItem>
+            </NavMenu>
+            <NavMenu onClick={handleClick}>
+              <NavItem>
+                <NavLinks to="/products">Products</NavLinks>
+              </NavItem>
             </NavMenu>
           </NavbarContainer>
         </Nav>
