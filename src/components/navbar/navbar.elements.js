@@ -40,3 +40,18 @@ export const NavLogo = styled(Link)`
 export const NavIcon = styled(FaMagento)`
   margin-right: 0.5rem;
 `;
+
+// Building the icon for mobile, it will be displaying
+// only when the screen width will turn at 960px
+export const MobileIcon = styled.div`
+  display: none;
+  @media screen and (max-width: 960px) {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+`;

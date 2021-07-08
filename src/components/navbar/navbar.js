@@ -1,19 +1,36 @@
 // Imporing dependancies
-import React from "react";
-import { Nav, NavbarContainer, NavLogo, NavIcon } from "./navbar.elements";
+import React, { useState } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
+import { IconContext } from "react-icons/lib";
+import {
+  Nav,
+  NavbarContainer,
+  NavLogo,
+  NavIcon,
+  MobileIcon,
+} from "./navbar.elements";
 
 // Building components
 const Navbar = () => {
+  // Making use of useState
+  const [click, setClick] = useState(false);
+  const handleClick = () => setClick(!click);
+
   return (
     <>
-      <Nav>
-        <NavbarContainer>
-          <NavLogo to="/">
-            <NavIcon />
-            ULTRA
-          </NavLogo>
-        </NavbarContainer>
-      </Nav>
+      <IconContext.Provider value={{ color: "#FFF" }}>
+        <Nav>
+          <NavbarContainer>
+            <NavLogo to="/">
+              <NavIcon />
+              Optimus Ged
+            </NavLogo>
+            <MobileIcon onClick={handleClick}>
+              {click ? <FaTimes /> : <FaBars />}
+            </MobileIcon>
+          </NavbarContainer>
+        </Nav>
+      </IconContext.Provider>
     </>
   );
 };
