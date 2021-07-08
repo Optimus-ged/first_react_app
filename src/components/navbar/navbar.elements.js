@@ -22,3 +22,14 @@ export const NavbarContainer = styled(Container)`
   display: flex;
   ${Container}
 `;
+
+// Builing the navLogo element
+export const NavLogo = styled(Link)`
+  display: flex;
+  justify-self: flex-start;
+  color: #fff;
+  cursor: pointer;
+  font-size: 2rem;
+  align-items: center;
+  text-decoration: none;
+`;
