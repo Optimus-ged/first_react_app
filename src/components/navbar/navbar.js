@@ -1,13 +1,14 @@
 // Imporing dependancies
-import React from 'react'
+import React from "react";
+import { Nav } from "./navbar.elements";
 
 // Building components
 const Navbar = () => {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+  return (
+    <>
+      <Nav>Test</Nav>
+    </>
+  );
+};
 
-export default Navbar
+export default Navbar;
