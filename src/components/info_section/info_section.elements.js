@@ -39,3 +39,13 @@ export const TextWrapper = styled.div`
     padding-bottom: 65px;
   }
 `;
+
+export const TopLine = styled.div`
+  color: ${({ lightTopLine }) => (lightTopLine ? "#a9b3ci" : "#4B59F7")};
+  font-size: 18px;
+  line-height: 16px;
+  letter-spacing: 1.4px;
+  margin-bottom: 16px;
+`;
+
+
