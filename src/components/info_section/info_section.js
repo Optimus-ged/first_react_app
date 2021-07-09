@@ -14,7 +14,11 @@ const InfoSection = ({ lightBg, imgStart }) => {
         <Container>
           <InfoRow imgStart={imgStart}>
             <InfoColumn>
-              <TextWrapper>Optimus the best</TextWrapper>
+              <TextWrapper>
+                <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
+                <Heading lightText={lightText}>{headLine}</Heading>
+                <SubTitle lightTextDesc={lightTextDesc}>{description}</SubTitle>
+              </TextWrapper>
             </InfoColumn>
           </InfoRow>
         </Container>
