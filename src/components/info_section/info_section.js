@@ -40,6 +40,11 @@ const InfoSection = ({
                 </Link>
               </TextWrapper>
             </InfoColumn>
+            <InfoColumn>
+              <ImgWrapper start={start}>
+                <Img src={img} alt={alt}/>
+              </ImgWrapper>
+            </InfoColumn>
           </InfoRow>
         </Container>
       </InfoSec>
