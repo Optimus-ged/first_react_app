@@ -1,7 +1,9 @@
+// Importing depedancies
 import React from "react";
 import { Link } from "react-router-dom";
 import { Container, Button } from "../../global_styles";
 
+// Importing deferents elements of the component
 import {
   InfoSec,
   InfoRow,
@@ -14,6 +16,7 @@ import {
   ImgWrapper,
 } from "./info_section.elements";
 
+// Building the Info section component
 const InfoSection = ({
   primary,
   lightBg,
