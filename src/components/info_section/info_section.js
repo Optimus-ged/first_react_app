@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from "../../global_styles";
+import { Container, Button } from "../../global_styles";
 import {
   InfoSec,
   InfoRow,
@@ -18,6 +18,9 @@ const InfoSection = ({ lightBg, imgStart }) => {
                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headLine}</Heading>
                 <SubTitle lightTextDesc={lightTextDesc}>{description}</SubTitle>
+                <Link to="/sign-up" >
+                  <Button big fontBig primary={primary} >{buttonLabel}</Button>
+                </Link>
               </TextWrapper>
             </InfoColumn>
           </InfoRow>
