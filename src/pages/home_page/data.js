@@ -59,7 +59,7 @@ export const homeObjThree = {
 export const homeObjFour = {
   primary: true,
   lightBg: false,
-  imgStart: "",
+  imgStart: "start",
   lightTopLine: true,
   lightText: true,
   lightTextDesc: true,
@@ -69,7 +69,7 @@ export const homeObjFour = {
   headLine: "Lead Generation specialists for online business",
   topLine: "Market Agency",
   img: img4,
-  start: "",
+  start: "true",
   alt: "Image",
 };
 

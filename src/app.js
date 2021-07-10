@@ -1,6 +1,6 @@
 // Importing dependancies
 import React from "react";
-import { Navbar } from "./components";
+import { Navbar, Footer } from "./components";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import GlobalStyle from "./global_styles";
 import Home from "./pages/home_page/home";
@@ -14,6 +14,7 @@ const App = () => {
       <Switch>
         <Route path="/" exact component={Home} />
       </Switch>
+      <Footer/>
     </Router>
   );
 };
