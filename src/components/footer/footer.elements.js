@@ -129,4 +129,13 @@ export const SocialMediaWrap = styled.div`
   }
 `;
 
-
+export const SocialLogo = styled(Link)`
+  color: #fff;
+  justify-self: start;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+`;
