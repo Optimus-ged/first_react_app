@@ -61,20 +61,41 @@ export const FormInput = styled.input`
 `;
 
 export const FooterLinksContainer = styled.div`
-    width: 100%;
-    max-width: 1000px;
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
 
-    @media screen and (max-width:820px){
-        padding-top: 32px;
-    }
+  @media screen and (max-width: 820px) {
+    padding-top: 32px;
+  }
 `;
 
 export const FooterLinksWrapper = styled.div`
-    display: flex;
+  display: flex;
 
-    @media screen and (max-width:820px){
-        flex-direction: column;
-    }
+  @media screen and (max-width: 820px) {
+    flex-direction: column;
+  }
 `;
+
+export const FooterLinkItems = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 16px;
+  text-align: left;
+  width: 160px;
+  box-sizing: border-box;
+  color: #fff;
+
+  @media screen and(max-width:420px) {
+      margin: 0;
+      padding: 10px;
+      width: 100%;
+  }
+`;
+
+
+
+
