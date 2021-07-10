@@ -42,3 +42,11 @@ export const Form = styled.form`
         width: 80%;
     }
 `;
+
+export const FormInput = styled.input`
+    padding: 10px 20px;
+    border-radius: 2px;
+    margin-right:10px ;
+    font-size: 16px;
+    border: 1px solid #FFF;
+`;
