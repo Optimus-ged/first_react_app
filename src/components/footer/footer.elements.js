@@ -71,4 +71,10 @@ export const FooterLinksContainer = styled.div`
     }
 `;
 
+export const FooterLinksWrapper = styled.div`
+    display: flex;
 
+    @media screen and (max-width:820px){
+        flex-direction: column;
+    }
+`;
