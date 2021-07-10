@@ -77,7 +77,7 @@ const Footer = () => {
               <SocialIcon />
               Optimus
             </SocialLogo>
-            <WebsitesWright>Optimus ged 2021</WebsitesWright>
+            <WebSitesWright>Optimus ged 2021</WebSitesWright>
             <SocialIcons>
               <SocialIconLink href="/" target="_blank" aria-label="Facebook">
                 <FaFacebook />

@@ -145,7 +145,15 @@ export const SocialIcon = styled(FaMagento)`
   margin-right: 10px;
 `;
 
-export const WebsitesWright = styled.small`
+export const WebSitesWright = styled.small`
   color: #FFF;
   margin-bottom: 16px;
 `;
+
+export const SocialIcons = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+`;
+
