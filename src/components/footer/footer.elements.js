@@ -96,6 +96,8 @@ export const FooterLinkItems = styled.div`
   }
 `;
 
-
+export const FooterLinkTitle = styled.h2`
+    margin-bottom: 16px;
+`;
 
 
