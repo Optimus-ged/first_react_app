@@ -23,19 +23,19 @@ export const homeObjOne = {
 };
 
 export const homeObjTwo = {
-  primary: true,
-  lightBg: false,
-  imgStart: "",
-  lightTopLine: true,
-  lightText: true,
-  lightTextDesc: true,
+  primary: false,
+  lightBg: true,
+  imgStart: "start",
+  lightTopLine: false,
+  lightText: false,
+  lightTextDesc: false,
   buttonLabel: "Get Started",
   description:
     "We Help business owners increase their revenue. Our Team of unique specialist can help you achieve your business goals",
   headLine: "Lead Generation specialists for online business",
   topLine: "Market Agency",
   img: img2,
-  start: "",
+  start: "true",
   alt: "Image",
 };
 
