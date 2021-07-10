@@ -1,4 +1,10 @@
 import React from "react";
+import {
+  FooterContainer,
+  FooterSubscription,
+  FooterSubHeading,
+  FooterSubText,
+} from "./footer.elements";
 
 const Footer = () => {
   return (
