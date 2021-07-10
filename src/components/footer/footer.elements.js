@@ -20,3 +20,11 @@ export const FooterSubscription = styled.section`
   color: #fff;
 `;
 
+export const FooterSubHeading = styled.p`
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 24px;
+  margin-bottom: 24px;
+`;
+
+
