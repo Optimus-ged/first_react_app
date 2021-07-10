@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {FaMagento} from "react-icons/fa"
 import { Link } from "react-router-dom";
 
 export const FooterContainer = styled.div`
@@ -138,4 +139,8 @@ export const SocialLogo = styled(Link)`
   display: flex;
   align-items: center;
   margin-bottom: 16px;
+`;
+
+export const SocialIcon = styled(FaMagento)`
+  margin-right: 10px;
 `;
