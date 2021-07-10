@@ -22,7 +22,7 @@ export const homeObjOne = {
   alt: "Image",
 };
 
-export const homeObjOne = {
+export const homeObjTwo = {
   primary: true,
   lightBg: false,
   imgStart: "",
@@ -39,7 +39,7 @@ export const homeObjOne = {
   alt: "Image",
 };
 
-export const homeObjOne = {
+export const homeObjThree = {
   primary: true,
   lightBg: false,
   imgStart: "",
@@ -56,7 +56,7 @@ export const homeObjOne = {
   alt: "Image",
 };
 
-export const homeObjOne = {
+export const homeObjFour = {
   primary: true,
   lightBg: false,
   imgStart: "",
