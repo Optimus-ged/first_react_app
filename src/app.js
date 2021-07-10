@@ -3,7 +3,7 @@ import React from "react";
 import { Navbar, Footer } from "./components";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import GlobalStyle from "./global_styles";
-import Home from "./pages/home_page/home";
+import Home from "./pages/home/home";
 
 // Building components
 const App = () => {
