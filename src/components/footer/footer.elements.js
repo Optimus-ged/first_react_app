@@ -27,4 +27,7 @@ export const FooterSubHeading = styled.p`
   margin-bottom: 24px;
 `;
 
-
+export const FooterSubText = styled.p`
+  margin-bottom: 24px;
+  font-size: 24px;
+`;
