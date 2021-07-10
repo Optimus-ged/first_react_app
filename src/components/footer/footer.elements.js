@@ -9,3 +9,14 @@ export const FooterContainer = styled.div`
   align-items: center;
 `;
 
+export const FooterSubscription = styled.section`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 24px;
+  padding: 24px;
+  color: #fff;
+`;
+
