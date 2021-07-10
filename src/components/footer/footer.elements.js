@@ -114,7 +114,7 @@ export const FooterLink = styled(Link)`
 
 export const SocialMedia = styled.section`
   max-width: 1000px;
-  width: 100px;
+  width: 100%;
 `;
 
 export const SocialMediaWrap = styled.div`

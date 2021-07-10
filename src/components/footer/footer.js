@@ -19,6 +19,13 @@ import {
   FooterLinkItems,
   FooterLinkTitle,
   FooterLink,
+  SocialMedia,
+  SocialMediaWrap,
+  SocialLogo,
+  SocialIcon,
+  SocialIcons,
+  SocialIconLink,
+  WebSitesWright
 } from "./footer.elements";
 
 const Footer = () => {
@@ -53,6 +60,8 @@ const Footer = () => {
               <FooterLink to="/">Investors</FooterLink>
               <FooterLink to="/">Terms of service</FooterLink>
             </FooterLinkItems>
+            </FooterLinksWrapper>
+            <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>Videos</FooterLinkTitle>
               <FooterLink to="/sign-up">How it works</FooterLink>
