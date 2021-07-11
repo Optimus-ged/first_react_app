@@ -28,7 +28,7 @@ import {
   WebSitesWright
 } from "./footer.elements";
 
-const FooterLinksContainer = ()=>{
+const FooterLinksContainerr = ()=>{
   return (
     <>
       <FooterLinksContainer>
@@ -73,7 +73,7 @@ const FooterLinksContainer = ()=>{
   );
 };
 
-const SocialMedia = ()=>{
+const SocialMediaContainer = ()=>{
   return (
     <>
       <SocialMedia>
@@ -120,8 +120,8 @@ const Footer = () => {
           <FormInput name="email" type="email" placeholder="Your email" />
           <Button fontBig>Subscribe</Button>
         </Form>
-        <FooterLinksContainer/>
-        <SocialMedia/>
+        <FooterLinksContainerr/>
+        <SocialMediaContainer/>
       </FooterContainer>
     </>
   );
