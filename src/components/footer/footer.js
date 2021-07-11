@@ -28,6 +28,84 @@ import {
   WebSitesWright
 } from "./footer.elements";
 
+const FooterLinksContainer = ()=>{
+  return (
+    <>
+      <FooterLinksContainer>
+        <FooterLinksWrapper>
+          <FooterLinkItems>
+            <FooterLinkTitle>About us</FooterLinkTitle>
+            <FooterLink to="/sign-up">How it works</FooterLink>
+            <FooterLink to="/">Testimonials</FooterLink>
+            <FooterLink to="/">Careers</FooterLink>
+            <FooterLink to="/">Investors</FooterLink>
+            <FooterLink to="/">Terms of service</FooterLink>
+          </FooterLinkItems>
+          <FooterLinkItems>
+            <FooterLinkTitle>Contact us</FooterLinkTitle>
+            <FooterLink to="/sign-up">How it works</FooterLink>
+            <FooterLink to="/">Testimonials</FooterLink>
+            <FooterLink to="/">Careers</FooterLink>
+            <FooterLink to="/">Investors</FooterLink>
+            <FooterLink to="/">Terms of service</FooterLink>
+          </FooterLinkItems>
+        </FooterLinksWrapper>
+        <FooterLinksWrapper>
+          <FooterLinkItems>
+            <FooterLinkTitle>Videos</FooterLinkTitle>
+            <FooterLink to="/sign-up">How it works</FooterLink>
+            <FooterLink to="/">Testimonials</FooterLink>
+            <FooterLink to="/">Careers</FooterLink>
+            <FooterLink to="/">Investors</FooterLink>
+            <FooterLink to="/">Terms of service</FooterLink>
+          </FooterLinkItems>
+          <FooterLinkItems>
+            <FooterLinkTitle>Social media</FooterLinkTitle>
+            <FooterLink to="/sign-up">How it works</FooterLink>
+            <FooterLink to="/">Testimonials</FooterLink>
+            <FooterLink to="/">Careers</FooterLink>
+            <FooterLink to="/">Investors</FooterLink>
+            <FooterLink to="/">Terms of service</FooterLink>
+          </FooterLinkItems>
+        </FooterLinksWrapper>
+      </FooterLinksContainer>
+    </>
+  );
+};
+
+const SocialMedia = ()=>{
+  return (
+    <>
+      <SocialMedia>
+        <SocialMediaWrap>
+          <SocialLogo to="/">
+            <SocialIcon />
+            Optimus
+          </SocialLogo>
+          <WebSitesWright>Optimus ged 2021</WebSitesWright>
+          <SocialIcons>
+            <SocialIconLink href="/" target="_blank" aria-label="Facebook">
+              <FaFacebook />
+            </SocialIconLink>
+            <SocialIconLink href="/" target="_blank" aria-label="Youtube">
+              <FaYoutube />
+            </SocialIconLink>
+            <SocialIconLink href="/" target="_blank" aria-label="Instagram">
+              <FaInstagram />
+            </SocialIconLink>
+            <SocialIconLink href="/" target="_blank" aria-label="Twitter">
+              <FaTwitter />
+            </SocialIconLink>
+            <SocialIconLink href="/" target="_blank" aria-label="Linkedin">
+              <FaLinkedin />
+            </SocialIconLink>
+          </SocialIcons>
+        </SocialMediaWrap>
+      </SocialMedia>
+    </>
+  );
+};
+
 const Footer = () => {
   return (
     <>
@@ -42,70 +120,8 @@ const Footer = () => {
           <FormInput name="email" type="email" placeholder="Your email" />
           <Button fontBig>Subscribe</Button>
         </Form>
-        <FooterLinksContainer>
-          <FooterLinksWrapper>
-            <FooterLinkItems>
-              <FooterLinkTitle>About us</FooterLinkTitle>
-              <FooterLink to="/sign-up">How it works</FooterLink>
-              <FooterLink to="/">Testimonials</FooterLink>
-              <FooterLink to="/">Careers</FooterLink>
-              <FooterLink to="/">Investors</FooterLink>
-              <FooterLink to="/">Terms of service</FooterLink>
-            </FooterLinkItems>
-            <FooterLinkItems>
-              <FooterLinkTitle>Contact us</FooterLinkTitle>
-              <FooterLink to="/sign-up">How it works</FooterLink>
-              <FooterLink to="/">Testimonials</FooterLink>
-              <FooterLink to="/">Careers</FooterLink>
-              <FooterLink to="/">Investors</FooterLink>
-              <FooterLink to="/">Terms of service</FooterLink>
-            </FooterLinkItems>
-            </FooterLinksWrapper>
-            <FooterLinksWrapper>
-            <FooterLinkItems>
-              <FooterLinkTitle>Videos</FooterLinkTitle>
-              <FooterLink to="/sign-up">How it works</FooterLink>
-              <FooterLink to="/">Testimonials</FooterLink>
-              <FooterLink to="/">Careers</FooterLink>
-              <FooterLink to="/">Investors</FooterLink>
-              <FooterLink to="/">Terms of service</FooterLink>
-            </FooterLinkItems>
-            <FooterLinkItems>
-              <FooterLinkTitle>Social media</FooterLinkTitle>
-              <FooterLink to="/sign-up">How it works</FooterLink>
-              <FooterLink to="/">Testimonials</FooterLink>
-              <FooterLink to="/">Careers</FooterLink>
-              <FooterLink to="/">Investors</FooterLink>
-              <FooterLink to="/">Terms of service</FooterLink>
-            </FooterLinkItems>
-          </FooterLinksWrapper>
-        </FooterLinksContainer>
-        <SocialMedia>
-          <SocialMediaWrap>
-            <SocialLogo to="/">
-              <SocialIcon />
-              Optimus
-            </SocialLogo>
-            <WebSitesWright>Optimus ged 2021</WebSitesWright>
-            <SocialIcons>
-              <SocialIconLink href="/" target="_blank" aria-label="Facebook">
-                <FaFacebook />
-              </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" aria-label="Youtube">
-                <FaYoutube />
-              </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" aria-label="Instagram">
-                <FaInstagram />
-              </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" aria-label="Twitter">
-                <FaTwitter />
-              </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" aria-label="Linkedin">
-                <FaLinkedin />
-              </SocialIconLink>
-            </SocialIcons>
-          </SocialMediaWrap>
-        </SocialMedia>
+        <FooterLinksContainer/>
+        <SocialMedia/>
       </FooterContainer>
     </>
   );
