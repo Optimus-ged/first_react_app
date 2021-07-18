@@ -4,7 +4,7 @@ class Message extends Component {
   constructor() {
     super();
     this.state = {
-      message: "React.js is awesome",
+      message: "Faith is rising",
     };
   }
 
