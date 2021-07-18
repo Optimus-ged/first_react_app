@@ -8,13 +8,13 @@ class App extends Component {
   render() {
     return (
       <div>
-        <HelloWorld />
+        {/* <HelloWorld />
         <Greet name="Adele">
           <p>props children</p>
         </Greet>
         <Greet name="Salem" />
         <Greet name="John" />
-        <Welcome name="Adele" />
+        <Welcome name="Adele" /> */}
         <Message/>
       </div>
     );
