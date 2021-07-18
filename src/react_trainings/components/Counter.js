@@ -8,20 +8,26 @@ class Counter extends Component {
     };
   }
 
-//   incrementCounter() {
-//     this.setState(
-//       {
-//         count: this.state.count + 1,
-//       },
-//       () => console.log(this.state.count)
-//     );
-//   }
-
   incrementCounter() {
-    this.setState((prevState, props) => ({
+    this.setState({
       count: this.state.count + 1,
-    }));
+    });
   }
+
+  //   incrementCounter() {
+  //     this.setState(
+  //       {
+  //         count: this.state.count + 1,
+  //       },
+  //       () => console.log(this.state.count)
+  //     );
+  //   }
+
+  //   incrementCounter() {
+  //     this.setState((prevState, props) => ({
+  //       count: this.state.count + 1,
+  //     }));
+  //   }
 
   incrementFive() {
     this.incrementCounter();
