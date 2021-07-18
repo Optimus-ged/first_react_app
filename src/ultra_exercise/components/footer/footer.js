@@ -25,7 +25,7 @@ import {
   SocialIcon,
   SocialIcons,
   SocialIconLink,
-  WebSitesWright
+  WebSitesWright,
 } from "./footer.elements";
 
 const Footer = () => {
@@ -60,8 +60,8 @@ const Footer = () => {
               <FooterLink to="/">Investors</FooterLink>
               <FooterLink to="/">Terms of service</FooterLink>
             </FooterLinkItems>
-            </FooterLinksWrapper>
-            <FooterLinksWrapper>
+          </FooterLinksWrapper>
+          <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>Videos</FooterLinkTitle>
               <FooterLink to="/sign-up">How it works</FooterLink>
