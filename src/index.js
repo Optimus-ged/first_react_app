@@ -3,7 +3,7 @@ import React from "react";
 import ReactDom from "react-dom";
 
 // Importing components
-import App from "./styled_trainings/app";
+import App from "./react_trainings/App";
 
 ReactDom.render(
   <React.StrictMode>

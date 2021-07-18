@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import App from "./components/Greet";
+import Greet from './components/Greet';
 
 class App extends Component {
   render() {
     return (
       <>
-        <App />
+        <Greet />
       </>
     );
   }
