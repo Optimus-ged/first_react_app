@@ -1,6 +1,13 @@
 import React from "react";
 import PersonListItem from "./PersonListItem";
 
+// This is the first approach of looping data
+// const NameList = () => {
+//   const persons = ["Optimus", "Cr3sc3nd0", "Yala"];
+//   const personsList = persons.map((person) => <h2>{person}</h2>);
+//   return <>{personsList}</>;
+// };
+
 // The Second approach
 const NameList = () => {
   const persons = [
