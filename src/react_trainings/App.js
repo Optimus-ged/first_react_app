@@ -6,7 +6,8 @@ import React, { Component } from "react";
 // import Counter from './components/Counter';
 // import FunctionClick from './components/FunctionClick';
 // import ClassClick from "./components/ClassClick";
-import EventBind from "./components/EventBind";
+// import EventBind from "./components/EventBind";
+import ParentComponent from "./components/ParentAndChild/ParentComponent";
 
 class App extends Component {
   render() {
@@ -23,7 +24,8 @@ class App extends Component {
         {/* <Counter/> */}
         {/* <FunctionClick/> */}
         {/* <ClassClick/> */}
-        <EventBind/>
+        {/* <EventBind/> */}
+        <ParentComponent/>
       </>
     );
   }
