@@ -5,7 +5,8 @@ import React, { Component } from "react";
 // import Message from "./components/Message";
 // import Counter from './components/Counter';
 // import FunctionClick from './components/FunctionClick';
-import ClassClick from "./components/classClick";
+// import ClassClick from "./components/ClassClick";
+import EventBind from "./components/EventBind";
 
 class App extends Component {
   render() {
@@ -21,7 +22,8 @@ class App extends Component {
         {/* <Message/> */}
         {/* <Counter/> */}
         {/* <FunctionClick/> */}
-        <ClassClick/>
+        {/* <ClassClick/> */}
+        <EventBind/>
       </>
     );
   }
