@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 
 class ClassClick extends Component {
+  clickHandler() {
+    console.log("Optimus is the best");
+  }
+
   render() {
-    function clickHandler() {
-      console.log("Button clicked");
-    }
     return (
       <>
-        <button onClick={clickHandler}>Click this button</button>
+        <button onClick={this.clickHandler}>Click here</button>
       </>
     );
   }
