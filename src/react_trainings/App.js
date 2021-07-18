@@ -3,8 +3,9 @@ import React, { Component } from "react";
 // import Welcome from "./components/Welcome";
 // import { HelloWorld } from "./components/Hello";
 // import Message from "./components/Message";
-import Counter from './components/Counter';
-import FunctionClick from './components/FunctionClick';
+// import Counter from './components/Counter';
+// import FunctionClick from './components/FunctionClick';
+import ClassClick from "./components/classClick";
 
 class App extends Component {
   render() {
@@ -19,7 +20,8 @@ class App extends Component {
         <Welcome name="Adele" /> */}
         {/* <Message/> */}
         {/* <Counter/> */}
-        <FunctionClick/>
+        {/* <FunctionClick/> */}
+        <ClassClick/>
       </>
     );
   }
