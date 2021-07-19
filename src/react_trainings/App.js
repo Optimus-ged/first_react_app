@@ -11,6 +11,7 @@ import React, { Component } from "react";
 // import ParentComponent from "./components/ParentAndChild/ParentComponent";
 // import UserGreeting from "./components/UserGreeting";
 import StyleSheet from "./components/CssBasics/StyleSheet";
+import InLine from "./components/CssBasics/InLine";
 
 class App extends Component {
   render() {
@@ -32,6 +33,7 @@ class App extends Component {
         {/* <UserGreeting/> */}
         {/* <NameList /> */}
         <StyleSheet className={true}/>
+        <InLine/>
       </>
     );
   }

@@ -5,7 +5,7 @@ const StyleSheet = (props) => {
   let className = props.className ? "primary" : "";
   return (
     <>
-      <h1 className={`${className} font-big`}>Optimus is the best</h1>
+      <h1 className={`${className} font-big`}>StyleSheets</h1>
     </>
   );
 };
