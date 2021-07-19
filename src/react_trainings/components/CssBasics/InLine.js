@@ -8,6 +8,7 @@ const Heading = {
 const InLine = () => {
   return (
     <>
+      <h2 className="error">Error</h2>
       <h2 style={Heading}>Inline Cascading</h2>
     </>
   );

@@ -1,5 +1,5 @@
 import React from "react";
-import "./MyStyle.css";
+import "./myStyle.css";
 
 const StyleSheet = (props) => {
   let className = props.className ? "primary" : "";

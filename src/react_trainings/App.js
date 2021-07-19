@@ -12,6 +12,8 @@ import React, { Component } from "react";
 // import UserGreeting from "./components/UserGreeting";
 import StyleSheet from "./components/CssBasics/StyleSheet";
 import InLine from "./components/CssBasics/InLine";
+import "./components/CssBasics/appStyles.css";
+import style from "./components/CssBasics/appStyles.module.css";
 
 class App extends Component {
   render() {
@@ -34,6 +36,8 @@ class App extends Component {
         {/* <NameList /> */}
         <StyleSheet className={true}/>
         <InLine/>
+        <h1 className={style.success}>Success</h1>
+        
       </>
     );
   }
