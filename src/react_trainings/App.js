@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import NameList from "./components/PersonList/NameList";
+// import NameList from "./components/PersonList/NameList";
 // import Greet from "./components/Greet";
 // import Welcome from "./components/Welcome";
 // import { HelloWorld } from "./components/Hello";
@@ -10,6 +10,7 @@ import NameList from "./components/PersonList/NameList";
 // import EventBind from "./components/EventBind";
 // import ParentComponent from "./components/ParentAndChild/ParentComponent";
 // import UserGreeting from "./components/UserGreeting";
+import StyleSheet from "./components/CssBasics/StyleSheet";
 
 class App extends Component {
   render() {
@@ -29,7 +30,8 @@ class App extends Component {
         {/* <EventBind/> */}
         {/* <ParentComponent/> */}
         {/* <UserGreeting/> */}
-        <NameList />
+        {/* <NameList /> */}
+        <StyleSheet className={true}/>
       </>
     );
   }

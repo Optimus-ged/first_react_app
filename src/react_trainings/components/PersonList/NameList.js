@@ -37,8 +37,16 @@ const NameList = () => {
     },
   ];
 
+  // First way of adding index to a list when mapping items
+  // but this way is not the best because it can bring some issues
+  // const personsList = persons.map((person, index) => (
+  //   <PersonListItem key={index} personData={person} />
+  // ));
+
+  // This is the best way to add a key to a list whwen mapping data
+  // it always recommanded to use keys which come with the list it self
   const personsList = persons.map((person) => (
-    <PersonListItem personData={person} />
+    <PersonListItem key={person.id} personData={person} />
   ));
 
   return <>{personsList}</>;
