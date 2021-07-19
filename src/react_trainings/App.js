@@ -14,7 +14,8 @@ import React, { Component } from "react";
 // import InLine from "./components/CssBasics/InLine";
 // import "./components/CssBasics/appStyles.css";
 // import style from "./components/CssBasics/appStyles.module.css";
-import Form from "./components/HandlingForm";
+// import Form from "./components/HandlingForm";
+import LifecycleA from "./components/LifecycleLearning/LifecycleA";
 
 class App extends Component {
   render() {
@@ -38,7 +39,7 @@ class App extends Component {
         {/* <StyleSheet className={true}/>
         <InLine/>
         <h1 className={style.success}>Success</h1> */}
-        <Form />
+        <LifecycleA />
       </>
     );
   }
