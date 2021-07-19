@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import FragmentDemo from "./components/FragmentLearning/FragmentDemo";
+import ParentCompo from "./components/PureComponent/ParentCompo";
 
 class App extends Component {
   render() {
     return (
       <>
-        <FragmentDemo />
+        <ParentCompo/>
       </>
     );
   }
