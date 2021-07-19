@@ -7,57 +7,68 @@ class Form extends Component {
     this.state = {
       username: "",
       comments: "",
-      topic: "React",
+      topic: "",
     };
   }
 
-  usernameChangeHandle = (event) => {
+  usernameChangeHandler = (event) => {
     this.setState({
       username: event.target.value,
     });
   };
 
-  commentChangeHandle = (event) => {
+  commentsChangeHandler = (event) => {
     this.setState({
       comments: event.target.value,
     });
   };
 
-  topicChangeHandle = (event) => {
+  topicChangeHandler = (event) => {
     this.setState({
       topic: event.target.value,
     });
   };
 
-  submitHandle = (event) => {
+  submitHandler = (event) => {
     alert(`${this.state.username} ${this.state.comments} ${this.state.topic}`);
+    event.preventDefault();
   };
 
   render() {
+    const { username, comments, topic } = this.state;
+    const {
+      usernameChangeHandler,
+      commentsChangeHandler,
+      topicChangeHandler,
+      submitHandler,
+    } = this;
+
     return (
       <>
-        <form onSubmit={this.submitHandle}>
+        <form onSubmit={submitHandler}>
           <div>
+            <label htmlFor="">User name</label>
             <input
               type="text"
-              value={this.state.username}
-              onChange={this.usernameChangeHandle}
+              value={username}
+              onChange={usernameChangeHandler}
             />
           </div>
           <div>
+            <label htmlFor="">Comments</label>
             <textarea
-              value={this.state.comments}
-              onChange={this.commentChangeHandle}
+              value={comments}
+              onChange={commentsChangeHandler}
             ></textarea>
           </div>
           <div>
-            <select value={this.state.topic} onChange={this.topicChangeHandle}>
+            <select value={topic} onChange={topicChangeHandler}>
               <option value="React">React</option>
-              <option value="Vue">Vue</option>
               <option value="Angular">Angular</option>
+              <option value="Vue">Vue</option>
             </select>
           </div>
-          <button type="submit">Submit</button>
+          <button type="submit">Submit Changes</button>
         </form>
       </>
     );
