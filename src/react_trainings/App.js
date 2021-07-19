@@ -10,10 +10,11 @@ import React, { Component } from "react";
 // import EventBind from "./components/EventBind";
 // import ParentComponent from "./components/ParentAndChild/ParentComponent";
 // import UserGreeting from "./components/UserGreeting";
-import StyleSheet from "./components/CssBasics/StyleSheet";
-import InLine from "./components/CssBasics/InLine";
-import "./components/CssBasics/appStyles.css";
-import style from "./components/CssBasics/appStyles.module.css";
+// import StyleSheet from "./components/CssBasics/StyleSheet";
+// import InLine from "./components/CssBasics/InLine";
+// import "./components/CssBasics/appStyles.css";
+// import style from "./components/CssBasics/appStyles.module.css";
+import Form from "./components/HandlingForm";
 
 class App extends Component {
   render() {
@@ -34,10 +35,10 @@ class App extends Component {
         {/* <ParentComponent/> */}
         {/* <UserGreeting/> */}
         {/* <NameList /> */}
-        <StyleSheet className={true}/>
+        {/* <StyleSheet className={true}/>
         <InLine/>
-        <h1 className={style.success}>Success</h1>
-        
+        <h1 className={style.success}>Success</h1> */}
+        <Form />
       </>
     );
   }
