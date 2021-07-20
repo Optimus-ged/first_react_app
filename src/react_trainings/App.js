@@ -1,22 +1,23 @@
 import React, { Component } from "react";
-import ClickCounter from "./components/IncrementLearn&HOC/ClickCounter";
-import HoverCounter from "./components/IncrementLearn&HOC/HoverCounter";
+import Counter from "./components/RenderPropsLearning/Counter";
+import ClickCounterTwo from "./components/RenderPropsLearning/ClickCounterTwo";
+import HoverCounterTwo from "./components/RenderPropsLearning/HoverCounterTwo";
 
 class App extends Component {
   render() {
     return (
       <>
-        {/* <ErrorBoundary>
-          <Hero heroName="optimus" />
-        </ErrorBoundary>
-        <ErrorBoundary>
-          <Hero heroName="ged" />
-        </ErrorBoundary>
-        <ErrorBoundary>
-          <Hero heroName="Jocker" />
-        </ErrorBoundary> */}
-        <ClickCounter name="Optimus ged"/>
-        <HoverCounter/>
+        <Counter>
+          {(incrementCount, count) => (
+            <ClickCounterTwo incrementCount={incrementCount} count={count} />
+          )}
+        </Counter>
+
+        <Counter>
+          {(incrementCount, count) => (
+            <HoverCounterTwo incrementCount={incrementCount} count={count} />
+          )}
+        </Counter>
       </>
     );
   }
