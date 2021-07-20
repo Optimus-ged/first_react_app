@@ -1,11 +1,20 @@
 import React, { Component } from "react";
-import ParentCompo from "./components/PureComponent/ParentCompo";
+import ErrorBoundary from "./components/ErrorBoundary";
+import Hero from "./components/Hero";
 
 class App extends Component {
   render() {
     return (
       <>
-        <ParentCompo/>
+        <ErrorBoundary>
+          <Hero heroName="optimus" />
+        </ErrorBoundary>
+        <ErrorBoundary>
+          <Hero heroName="ged" />
+        </ErrorBoundary>
+        <ErrorBoundary>
+          <Hero heroName="Jocker" />
+        </ErrorBoundary>
       </>
     );
   }
