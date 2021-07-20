@@ -1,23 +1,15 @@
 import React, { Component } from "react";
-import Counter from "./components/RenderPropsLearning/Counter";
-import ClickCounterTwo from "./components/RenderPropsLearning/ClickCounterTwo";
-import HoverCounterTwo from "./components/RenderPropsLearning/HoverCounterTwo";
+import ComponentA from "./components/ContextLearning/ComponentA";
+import { UserProvider } from "./components/ContextLearning/UserContext";
+
 
 class App extends Component {
   render() {
     return (
       <>
-        <Counter>
-          {(incrementCount, count) => (
-            <ClickCounterTwo incrementCount={incrementCount} count={count} />
-          )}
-        </Counter>
-
-        <Counter>
-          {(incrementCount, count) => (
-            <HoverCounterTwo incrementCount={incrementCount} count={count} />
-          )}
-        </Counter>
+        <UserProvider value="Optimus YALA">
+          <ComponentA />
+        </UserProvider>
       </>
     );
   }
