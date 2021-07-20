@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import ErrorBoundary from "./components/ErrorBoundary";
-import Hero from "./components/Hero";
+import ClickCounter from "./components/IncrementLearn/ClickCounter";
+import HoverCounter from "./components/IncrementLearn/HoverCounter";
 
 class App extends Component {
   render() {
     return (
       <>
-        <ErrorBoundary>
+        {/* <ErrorBoundary>
           <Hero heroName="optimus" />
         </ErrorBoundary>
         <ErrorBoundary>
@@ -14,7 +14,9 @@ class App extends Component {
         </ErrorBoundary>
         <ErrorBoundary>
           <Hero heroName="Jocker" />
-        </ErrorBoundary>
+        </ErrorBoundary> */}
+        <ClickCounter />
+        
       </>
     );
   }
