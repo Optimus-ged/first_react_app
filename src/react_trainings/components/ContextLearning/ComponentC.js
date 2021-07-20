@@ -6,7 +6,7 @@ class ComponentC extends Component {
     return (
       <UserConsumer>
         {(userName) => {
-          return <h1>{userName}</h1>;
+          return <h1>ged {userName}</h1>;
         }}
       </UserConsumer>
     );

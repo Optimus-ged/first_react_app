@@ -1,9 +1,10 @@
 // Importing dependancies
 import React from "react";
 import ReactDom from "react-dom";
+import App from "./react_HTTP/App";
 
 // Importing components
-import App from "./react_trainings/App";
+
 
 ReactDom.render(
   <React.StrictMode>
