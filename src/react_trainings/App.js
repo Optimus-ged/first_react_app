@@ -15,7 +15,7 @@ class App extends Component {
         <ErrorBoundary>
           <Hero heroName="Jocker" />
         </ErrorBoundary> */}
-        <ClickCounter />
+        <ClickCounter name="Optimus ged"/>
         <HoverCounter/>
       </>
     );
