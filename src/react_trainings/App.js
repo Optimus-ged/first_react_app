@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import ClickCounter from "./components/IncrementLearn/ClickCounter";
-import HoverCounter from "./components/IncrementLearn/HoverCounter";
+import ClickCounter from "./components/IncrementLearn&HOC/ClickCounter";
+import HoverCounter from "./components/IncrementLearn&HOC/HoverCounter";
 
 class App extends Component {
   render() {
