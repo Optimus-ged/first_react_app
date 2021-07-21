@@ -1,10 +1,10 @@
 import React from "react";
-import HookCounter from "./HookCounter";
+import PrevStateLearn from "./PrevStateLearn";
 
 const App = () => {
   return (
     <>
-      <HookCounter />
+      <PrevStateLearn />
     </>
   );
 };
