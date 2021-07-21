@@ -15,17 +15,30 @@ class ProductList extends Component {
     axios
       .get("http://localhost:3030/api/article")
       .then((response) => {
-        console.log(response);
-        this.setState({ data: response.data });
+        this.setState({
+          data: response.data,
+        });
       })
       .catch((err) => {
         console.log(err);
-        this.setState({ errorMsg: "Error retrie" });
+        this.setState({
+          errorMsg:
+            "An Error occured when trying to display data\nfrom the Server",
+        });
       });
   }
 
   render() {
-    return <div>Produt list</div>;
+    const { data, errorMsg } = this.state;
+    return (
+      <>
+        {data.length ? (
+          data.map((product) => <h1>{product.designation}</h1>)
+        ) : (
+          <h1>{errorMsg}</h1>
+        )}
+      </>
+    );
   }
 }
 
