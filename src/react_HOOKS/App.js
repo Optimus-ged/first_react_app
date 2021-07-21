@@ -1,10 +1,10 @@
 import React from "react";
-import PrevStateLearn from "./PrevStateLearn";
+import StateWithObject from "./StateWithObject";
 
 const App = () => {
   return (
     <>
-      <PrevStateLearn />
+      <StateWithObject />
     </>
   );
 };
