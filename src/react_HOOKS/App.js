@@ -1,10 +1,10 @@
 import React from "react";
-import StateWithObject from "./StateWithObject";
+import ArraysInHooks from "./ArraysInHooks";
 
 const App = () => {
   return (
     <>
-      <StateWithObject />
+      <ArraysInHooks />
     </>
   );
 };
