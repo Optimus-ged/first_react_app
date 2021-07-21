@@ -1,6 +1,7 @@
 import React, { Component } from "react";
+import axios from "axios";
 
-class PostProductForm extends Component {
+class PostProductList extends Component {
   constructor(props) {
     super(props);
 
@@ -10,15 +11,16 @@ class PostProductForm extends Component {
     };
   }
 
-  inputHandler = (e) => {
-    this.setState({
-      [e.target.name]: e.target.value,
-    });
+  onchangeHandler = (e) => {
+    this.setState({ [e.target.name]: e.target.value });
   };
 
   submitHandler = (e) => {
     e.preventDefault();
-    console.log(this.state);
+    axios
+      .post("http://localhost:3030/api/article", this.state)
+      .then((response) => console.log(response))
+      .catch((err) => console.log(err));
   };
 
   render() {
@@ -31,23 +33,22 @@ class PostProductForm extends Component {
               type="text"
               name="name"
               value={name}
-              onChange={this.inputHandler}
+              onChange={this.onchangeHandler}
             />
           </div>
-
           <div>
             <input
               type="text"
               name="price"
               value={price}
-              onChange={this.inputHandler}
+              onChange={this.onchangeHandler}
             />
           </div>
-          <button type="submit">Submit data</button>
+          <button type="submit">Submit</button>
         </form>
       </>
     );
   }
 }
 
-export default PostProductForm;
+export default PostProductList;
