@@ -39,7 +39,7 @@ const DataFetching = () => {
         </ul>
       )}
 
-      <h2>{errorMsg ? errorMsg : null}</h2>
+      <h2>{errorMsg && errorMsg}</h2>
     </>
   );
 };
