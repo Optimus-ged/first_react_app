@@ -1,10 +1,10 @@
 import React from "react";
-import HookCounterOne from "./HookCounterOne";
+import HookContainer from "./HookContainer";
 
 const App = () => {
   return (
     <>
-      <HookCounterOne />
+      <HookContainer />
     </>
   );
 };
