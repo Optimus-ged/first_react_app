@@ -1,10 +1,10 @@
 import React from "react";
-import IntervaleHookCounter from "./IntervaleHookCounter";
+import DataFetching from "./DataFetching";
 
 const App = () => {
   return (
     <>
-      <IntervaleHookCounter />
+      <DataFetching />
     </>
   );
 };
