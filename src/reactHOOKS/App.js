@@ -1,10 +1,10 @@
 import React from "react";
-import FetchingOneItem from "./FetchingOneItem";
+import DataFetching from "./DataFetching";
 
 const App = () => {
   return (
     <>
-      <FetchingOneItem />
+      <DataFetching />
     </>
   );
 };

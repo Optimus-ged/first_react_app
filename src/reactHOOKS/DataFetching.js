@@ -1,34 +1,47 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-function DataFetching() {
+const DataFetching = () => {
+  const [loading, setLoading] = useState(true);
   const [products, setProducts] = useState([]);
+  const [errorMsg, setErrorMsg] = useState("");
 
   useEffect(() => {
     axios
       .get("http://localhost:3030/api/article")
       .then((res) => {
+        console.log(res.data);
+        setLoading(false);
         setProducts(res.data.response);
-        console.log(res.data.response);
       })
-      .catch((err) => console.log(err));
+      .catch((err) => {
+        console.log(err);
+        setLoading(false);
+        setErrorMsg("Some thing whent wrong");
+      });
   }, []);
 
   return (
     <>
-      <ul>
-        {products.map((prod) => (
-          <li key={prod.id}>
-            <div>
-              <h2>{prod.designation}</h2>
-              <p>{prod.a_propos}</p>
-              <p>{prod.pu}</p>
-            </div>
-          </li>
-        ))}
-      </ul>
+      {loading ? (
+        "Loading data ..."
+      ) : (
+        <ul>
+          {products.map((prod) => (
+            <li key={prod.id}>
+              <div>
+                <h3>{prod.designation}</h3>
+                <p>{prod.pu}</p>
+                <p>{prod.a_propos}</p>
+              </div>
+            </li>
+          ))}
+        </ul>
+      )}
+
+      <h2>{errorMsg ? errorMsg : null}</h2>
     </>
   );
-}
+};
 
 export default DataFetching;
