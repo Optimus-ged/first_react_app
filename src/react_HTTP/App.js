@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import PostProductForm from "./PostProductList";
+import GetProductList from "./GetProductList";
 
 class App extends Component {
   render() {
     return (
       <>
-        <PostProductForm/>
+        <GetProductList />
       </>
     );
   }

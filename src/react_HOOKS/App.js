@@ -1,10 +1,10 @@
 import React from "react";
-import ArraysInHooks from "./ArraysInHooks";
+import HookCounterOne from "./HookCounterOne";
 
 const App = () => {
   return (
     <>
-      <ArraysInHooks />
+      <HookCounterOne />
     </>
   );
 };

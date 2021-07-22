@@ -16,11 +16,10 @@ class GetProductList extends Component {
       .get("http://localhost:3030/api/article")
       .then((response) => {
         this.setState({
-          data: response.data,
+          data: response.data.response,
         });
       })
       .catch((err) => {
-        console.log(err);
         this.setState({
           errorMsg:
             "An Error occured when trying to display data\nfrom the Server",
@@ -32,11 +31,19 @@ class GetProductList extends Component {
     const { data, errorMsg } = this.state;
     return (
       <>
-        {data.length ? (
-          data.map((product) => <h1>{product.designation}</h1>)
-        ) : (
-          <h1>{errorMsg}</h1>
-        )}
+        <div>
+          {data.length ? (
+            data.map((prod) => (
+              <div key={prod.id}>
+                <h3>Designation : {prod.designation}</h3>
+                <p>Pu : {prod.pu}</p>
+                <p>A propos : {prod.a_propos}</p>
+              </div>
+            ))
+          ) : (
+            <h3>{errorMsg}</h3>
+          )}
+        </div>
       </>
     );
   }
