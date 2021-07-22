@@ -1,10 +1,10 @@
 import React from "react";
-import HookContainer from "./HookContainer";
+import IntervaleHookCounter from "./IntervaleHookCounter";
 
 const App = () => {
   return (
     <>
-      <HookContainer />
+      <IntervaleHookCounter />
     </>
   );
 };
