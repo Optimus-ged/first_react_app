@@ -67,7 +67,7 @@ export const CiteContainer = styled.div`
   font-size: 25px;
   color: #fff;
   text-align: center;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   background: #409fe2;
   position: absolute;
   top: 10px;
@@ -106,7 +106,7 @@ export const SupriseMeButton = styled.button`
   padding: 5px;
   cursor: pointer;
 
-  &:hover{
-      color: blue;
+  &:hover {
+    color: blue;
   }
 `;
